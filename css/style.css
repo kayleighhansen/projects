@@ -1,4 +1,61 @@
-header, footer {
-    background-color: #ff4800;
+*{
+    margin:0;
+    padding:0;
 }
 
+header, footer {
+    background-color: hsl(229, 83%, 73%);
+    border-radius: 15px;
+    border-style: solid;
+}
+
+header, footer, main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header h1 {
+    margin-left: 10%;
+    font-size: 40px;
+    border-bottom: solid;
+
+}
+
+header {
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 25px;
+    border-style: solid;
+}
+
+h1, h2, footer {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+    border-bottom: solid;
+}
+
+#profile-pic {
+    float: right;
+    height: 200px;
+    width: auto;
+    
+}
+
+a {
+    color: black;
+}
+
+footer p {
+    color: blue;
+    font-size: 10px;
+    margin-top: 2%;
+}
+
+footer {
+    text-align: center;
+}
