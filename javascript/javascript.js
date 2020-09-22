@@ -1,38 +1,10 @@
-<script>
-
-let daynames = [
-
-     "Sunday",
-     "Monday",
-     "Tuesday",
-     "Wednesday",
-     "Thursday",
-     "Friday",
-     "Saturday",
-]
-let months = [
-
-     "January",
-     "February",
-     "March",
-     "April",
-     "May",
-     "June",
-     "July",
-     "August",
-     "September",
-     "October",
-     "November",
-     "December"
- ]   
-
- let d = new Date ();
-
-let dayName = dayname[d.getDay()];
-let monthName = months[d.getMonth()];
+let d = new Date ();
+let dayName = d.getDay();
+let monthName = d.getMonth();
 let year = d.getFullYear();
-let fulldate = dayName + "," + monthName + d.getDate() + "," + year;
 
-document.getElementById("currentdate").textContent = fullDate;
+let fullDate = dayName + "/" + monthName+ "/" + year;
+document.getElementById("fullDate").textContent = currentDate;
 
-</script>
+let a = 1;
+document.getElementById("a").textContent = currentDate;

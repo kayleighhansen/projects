@@ -46,13 +46,22 @@ h2 {
     
 }
 
+main li {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+main p {
+    font-family: 'Roboto', sans-serif;
+}
+
 a {
     color: black;
 }
 
 footer p {
     color: blue;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 footer {
