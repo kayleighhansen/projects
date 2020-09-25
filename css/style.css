@@ -39,13 +39,6 @@ h2 {
     border-bottom: solid;
 }
 
-#profile-pic {
-    float: right;
-    height: 200px;
-    width: auto;
-    
-}
-
 main li {
     margin-left: 10%;
     margin-top: 1%;
