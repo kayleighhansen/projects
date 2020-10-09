@@ -9,10 +9,11 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
     font-family: 'Prompt', sans-serif;
     font-style: bold;
+    text-shadow: 3px 3px 3px #DFE1E2;
 }
 
 h2 {
