@@ -47,5 +47,10 @@ footer {
 div img {
     height: 170px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 70px;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
