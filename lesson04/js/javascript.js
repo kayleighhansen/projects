@@ -5,9 +5,10 @@ menubutton.addEventListener('click', () => { mainnav.classList.toggle('responsiv
 
 window.onresize = () => { if (window.innerWidth > 760) mainnav.classList.remove('responsive') };
 
-let d = new Date ();
-let year = d.getFullYear();
-document.getElementById("copywriteYear").textContent = year;
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+var yyyy = today.getFullYear();
 
-let lastModified = document.lastModified;
-document.getElementById("lastModified").textContent = lastModified;
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById("currentDate").textContent = today;
