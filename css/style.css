@@ -4,9 +4,8 @@
 }
 
 header, footer {
-    background-color: hsl(229, 83%, 73%);
-    border-radius: 15px;
     border-style: solid;
+    background-color: #D9D9D9;
 }
 
 header, footer, main {
@@ -16,7 +15,7 @@ header, footer, main {
 }
 
 header h1 {
-    margin-left: 10%;
+    margin-left: 15%;
     font-size: 40px;
     border-bottom: solid;
 
@@ -27,8 +26,7 @@ header {
 }
 
 img {
-    border-radius: 25px;
-    border-style: solid;
+    border-radius: 15px;
     height: 200px;
     width: 200px;
 }
@@ -55,7 +53,6 @@ a {
 }
 
 footer p {
-    color: blue;
     font-size: 15px;
 }
 

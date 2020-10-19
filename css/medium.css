@@ -12,9 +12,9 @@
 
 @media (min-width: 64em) {
     #profile-pic {
-        float: right;
-        width:150px;
-        height:150px;
+        float: left;
+        width:100px;
+        height:100px;
         object-fit:cover;
     }
 }

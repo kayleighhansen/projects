@@ -1,12 +1,5 @@
-@media (min-width: 50em) {
+@media (max-width: 58em) {
     li {
-        float: left;
-    }
-}
-
-
-@media (min-width: 64em) {
-    li {
-        float: center;
+      float: none;
     }
 }
