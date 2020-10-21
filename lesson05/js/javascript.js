@@ -3,7 +3,7 @@ const mainnav = document.querySelector('.navigation')
 
 menubutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
 
-window.onresize = () => { if (window.innerWidth > 760) mainnav.classList.remove('responsive') };
+window.onresize = () => { if (window.innerWidth > 800) mainnav.classList.remove('responsive') };
 
 
 let d = new Date ();

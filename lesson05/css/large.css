@@ -1,7 +1,26 @@
-@media (min-width:50em) {
+@media (min-width:60em) {
 /*large screen desktop size*/
 
     /* Header Things*/
+
+    * {
+        margin: 0;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    header img {
+        text-align: right;
+        height: 80px;
+        width: auto;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin-top: -5%;
+        padding: 10px;
+    }
 
     header {
         padding: 2rem;
@@ -19,40 +38,60 @@
         grid-row: 1/2;
     }
 
-    /* Navigation Things */ 
-
-    nav {
-        display: flex;
-        justify-content: center;
-        background-color: #EB5A5F;
+    header h2 {
+        font-size: 15px;
+        text-align: right;
+        font-family: 'Open Sans', sans-serif;
+        grid-column: 1/2;
+        grid-row: 2/3;
     }
 
-    .navigation li:first-child {
-		display: none;
+    #underline {
+        margin-bottom: 3px;
+        background-color: #EF8084;
+        height: 1rem;
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    nav {
+      overflow: hidden;
+      background-color: #EB5A5F;
     }
 
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 20px;
-        font-family: 'Open Sans', sans-serif;
-        color: black;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
     }
 
-    /* Hero Banner Things*/
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      color: black;
+    }
+
+    li a:hover {
+      background-color: white;
+    }
+
+    nav li:first-child {
+      display: none;
+    }
+
+    /* Hero Banner Things */
 
     .hero-banner {
         display: flex;
@@ -62,8 +101,8 @@
     }
 
     .hero-banner-img {
-        height: 35rem;
         width: 90%;
+        height: 30rem;
         object-fit: cover;
         }
     
@@ -73,8 +112,12 @@
         width: 300px;
         padding: 10px;
         position: absolute;
+        margin-right: 50%;
         border-radius: 5%;
+        opacity: 80%;
     }
+
+    /* Forecast Things */
     
     .forecast-grid {
         display: flex;
@@ -87,7 +130,7 @@
         text-align: center;
         padding: 1rem;
         margin-top: 3rem;
-        width: 100%;
+        width: 98%;
         margin-left: 0;
         background-color:#A2DAF6;
     }
@@ -114,7 +157,7 @@
         font-size: 15px;
     }
 
-    /* News Things*/
+    /* News Things */
 
     .news-grid {
         display: flex;
@@ -129,6 +172,16 @@
         border-color: #EF8084;
         padding: 1rem;
         margin: 5px;
-      }
+    }
+
+    .news-h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 3rem;
+        width: 98%;
+        margin-left: 0;
+        background-color:#A2DAF6;
+    }
       
 }

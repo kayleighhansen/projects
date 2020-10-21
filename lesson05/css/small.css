@@ -44,33 +44,33 @@
     /* Navigation Things */
     
     nav {
-    margin-top: 0rem;
-    grid-column: 2/3;
-    position: absolute;
-    top: 0;
-    right: 0;
+        margin-top: 0rem;
+        grid-column: 2/3;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
         
     .navigation {
-    list-style: none;
-    padding: 0;
+        list-style: none;
+        padding: 0;
     }
     
     .navigation li:first-child {
-    display: block;
+        display: block;
     }
     
     .navigation li {
-    display: none;
+        display: none;
     }
     
     .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
     }
     
     .navigation a:hover {
@@ -126,7 +126,7 @@
 }
 
     .hero-banner-img {
-    width: 375px; 
+    width: 90%; 
     height: 35rem; 
     object-fit: cover;
     }
@@ -138,6 +138,7 @@
         padding: 10px;
         position: absolute;
         border-radius: 5%;
+        opacity: 80%;
     }
 
     /* Forecast Things */
@@ -188,9 +189,19 @@
 
     .news-grid div {
         height: 200px;
-        border-bottom: solid;
+        border-bottom: solid 5px;
+        border-color: #EF8084;
         padding: 1rem;
         margin: 5px;
     }
     
+    .news-h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 3rem;
+        width: 98%;
+        margin-left: 0;
+        background-color:#A2DAF6;
+    }
 }

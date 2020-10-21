@@ -37,7 +37,6 @@ header h2 {
 /* Navigation Things */
 
 
-
 li a:hover {
     background-color: white;
 }
@@ -63,15 +62,7 @@ font-size: 25px;
 
 /* News Things*/
 
-.news-h1 {
-    font-size: 30px;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 3rem;
-    width: 100%;
-    margin-left: 0;
-    background-color:#A2DAF6;
-}
+
 
 .news p {
     margin-top: 5%;
