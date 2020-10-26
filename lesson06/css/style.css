@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+header img {
+    text-align: right;
+    height: 80px;
+    width: auto;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: -5%;
+    padding: 10px;
+}
+
+header h2 {
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#underline {
+    margin-bottom: 3px;
+    background-color: #EF8084;
+    height: 1rem;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+/* Navigation Things */
+
+
+li a:hover {
+    background-color: white;
+}
+
+main h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Hero Banner Things*/
+
+
+.hero-banner-h1 {
+font-size: 25px;
+}
+
+.hero-banner-p {
+    margin-top: 10%;
+}
+
+/* News Things*/
+
+.news p {
+    margin-top: 5%;
+}
+
+footer {
+    background-color: #EB5A5F;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 5%;
+}

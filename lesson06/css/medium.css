@@ -1,0 +1,135 @@
+@media all and (max-width: 60em) and (min-width: 40em) {
+    /*medium screen, tablet size*/
+    
+        /* Header Things*/
+        header {
+            padding: 2rem;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 55% 45%;
+            grid-template-rows: 50% 50%;
+        }
+    
+        header h1 {
+            font-size: 35px;
+            text-align: right;
+            font-family: 'Fjalla One', sans-serif;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #EB5A5F;
+            padding: 10px;
+        }
+    
+        .navigation li:first-child {
+            display: block;
+        }
+    
+        .navigation a {
+            text-decoration: none;
+            color: black;
+        }
+    
+        .navigation li {
+            display: none;
+        }
+    
+        .navigation h1 {
+            display: none;
+        }
+    
+        /* Hero Banner Things*/
+    
+        .hero-banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    
+        .hero-banner-img {
+            height: 35rem;
+        }
+        
+        .hero-banner-txt {
+            background-color: white;
+            height: 300px;
+            width: 300px;
+            padding: 10px;
+            position: absolute;
+            border-radius: 5%;
+            opacity: 70%;
+        }
+    
+        /* Forecast Things */
+    
+        .forecast-grid {
+            display: flex;
+            justify-content: center;
+            margin: 2rem;
+        }
+    
+        .forecast-h1 {
+            font-size: 30px;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+            width: 100%;
+            margin-left: 0;
+            background-color:#A2DAF6;
+        }
+        
+        .weather-png {
+            height: 100px;
+        }
+        
+        .five-day-forecast div {
+            height: 190px;
+            width: 150px;
+            text-align: center;
+            margin: 5px;
+            border-radius: 15%;
+            padding: 0;
+        }
+        
+        .five-day-forecast h2 {
+            padding: 5px;
+            font-size: 20px;
+        }
+        
+        .five-day-forecast p {
+            font-size: 15px;
+        }
+            
+        /* News Things*/
+    
+        .news-grid {
+            display: flex;
+            justify-content: center;
+            margin: 2rem;
+        }
+    
+        .news-grid div {
+            height: 200px;
+            width: 30rem;
+            border-left: solid;
+            border-color: #EF8084;
+            padding: 1rem;
+            margin: 5px;
+        }
+    
+        .news-h1 {
+            font-size: 30px;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+            width: 98%;
+            margin-left: 0;
+            background-color:#A2DAF6;
+        }
+        
+    }
