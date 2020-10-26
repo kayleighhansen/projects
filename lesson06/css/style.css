@@ -53,12 +53,25 @@ p {
 
 
 .hero-banner-h1 {
-font-size: 25px;
+    font-size: 20px;
 }
 
-.hero-banner-p {
+.weather-summary-text {
     margin-top: 10%;
 }
+
+.weather-summary-text p {
+    padding: 8px;
+}
+
+.weather-summary {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
 
 /* News Things*/
 

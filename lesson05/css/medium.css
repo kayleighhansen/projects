@@ -52,7 +52,8 @@
     }
 
     .hero-banner-img {
-        height: 35rem;
+        height: auto;
+        width: 90%;
     }
     
     .hero-banner-txt {
@@ -62,7 +63,7 @@
         padding: 10px;
         position: absolute;
         border-radius: 5%;
-        opacity: 70%;
+        opacity: 90%;
     }
 
     /* Forecast Things */
