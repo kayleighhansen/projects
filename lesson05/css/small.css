@@ -23,7 +23,7 @@
     
     header img {
     margin: 0%;
-    height: 60px;
+    height: 70px;
     width: auto;
     grid-column: 1/2;
     padding: 1rem;
@@ -152,7 +152,7 @@
         text-align: center;
         padding: 1rem;
         margin-top: 3rem;
-        width: 100%;
+        width: 95%;
         margin-left: 0;
         background-color:#A2DAF6;
     }
@@ -188,9 +188,10 @@
     }
 
     .news-grid div {
-        height: 200px;
-        border-bottom: solid 5px;
+        height: 450px;
+        border: solid 3px;
         border-color: #EF8084;
+        border-radius: 5px;
         padding: 1rem;
         margin: 5px;
     }
@@ -200,8 +201,13 @@
         text-align: center;
         padding: 1rem;
         margin-top: 3rem;
-        width: 98%;
+        width: 95%;
         margin-left: 0;
         background-color:#A2DAF6;
+    }
+
+    .news-article-h1 {
+        font-size: 30px;
+        margin: 15px;
     }
 }

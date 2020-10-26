@@ -115,7 +115,7 @@
     }
 
     .news-grid div {
-        height: 200px;
+        height: 440px;
         width: 30rem;
         border-left: solid;
         border-color: #EF8084;
@@ -131,6 +131,22 @@
         width: 98%;
         margin-left: 0;
         background-color:#A2DAF6;
+    }
+
+    button {
+        background-color: #EB5A5F;
+        height: 40px;
+        width: 120px;
+        padding: 5px;
+        margin: 20px;
+        margin-left: 30%;
+        font-family: 'Fjalla One', sans-serif;
+        border: none;
+    }
+    
+    button:hover {
+        background-color: white;
+        border: solid black;
     }
     
 }

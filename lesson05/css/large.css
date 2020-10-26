@@ -14,7 +14,7 @@
 
     header img {
         text-align: right;
-        height: 80%;
+        height: 80px;
         width: auto;
         grid-column: 2/3;
         grid-row: 1/3;
@@ -167,7 +167,7 @@
     }
 
     .news-grid div {
-        height: 240px;
+        height: 270px;
         width: 30rem;
         border-left: solid;
         border-color: #EF8084;
