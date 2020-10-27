@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <title>Preston Page</title>
     <meta name="author" content="Kayleigh Hansen">
-    <meta name="description" content="Lesson 06 Assignment  for Kayleigh Hansen 
+    <meta name="description" content="Lesson 05 Assignment  for Kayleigh Hansen 
         in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
+
+<div class="alert" id="alert">
+    <p>Saturday = Pancake Day in the Park Tomorrow, <br> 9am Friday in the park!</p>
+</div>
 
 <header>
     <h1>Fowl Weather</h1>
@@ -25,76 +28,82 @@
 
 <div id="underline"></div>
 <main>
-<nav>
-    <ul class="navigation">
-        <li><a class="menu" href="#"><h2>Menu</h2><h1>&#8801;</h1></a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">
+                    <h2>Menu</h2>
+                    <h1>&#8801;</h1>
+                </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
 
     <section class="hero-banner">
-        <img class="hero-banner-img" src="images/60hero-banner-large.png" alt="idaho-banner">
+        <img class="hero-banner-img" src="images/banner.jpg" alt="idaho-banner">
         <section class="hero-banner-txt">
-            <h1 class="hero-banner-h1">Preston Idaho - Weather Summary</h1>
-            <div class="weather-summary-text"> 
-                <p class="current-weather">Currently: <span id="currently">60&#176;</span></p>
-                <p class="high-temp">High Temperature: <span id="high-temp">70&#176;</span></p>
-                <p class="wind-chill">Wind Chill: <span id="wind-chill">10&#176;</span></p>
-                <p class="wind-speed">Wind Speed: <span id="wind-speed">60mph</span></p>
-                <p class="humidity">Humidity: <span id="humidity">60%</span></p>
-            </div>
+            <h1 class="hero-banner-h1">Preston Idaho</h1>
+            <p class="hero-banner-p"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur libero illo,
+                sint amet eum atque iste veritatis ut. Minus atque blanditiis facilis laborum deserunt odit nisi
+                molestiae ab vitae quisquam! </p>
+            <h1 class="hero-banner-h1">Weather Summary</h1>
+            <p class="hero-banner-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae deleniti maiores
+                harum nihil accusantium recusandae nam? Temporibus atque distinctio voluptatibus nulla autem. Sunt vero
+                dolore laudantium veniam, corrupti nemo.</p>
         </section>
     </section>
-
     <section class="five-day-forecast">
-        <h1 class="forecast-h1"> 5 day forecast <h1>
-            <section class="forecast-grid">
-                <div class="forecast-1">
-                    <h2> Monday </h2>
-                    <img class="weather-png" src="images/snowy-chicken.png" alt="circle">
-                    <p>10&#176; Snowy</p>
-                </div>
-                <div class="forecast-2">
-                    <h2> Tuesday </h2>
-                    <img class="weather-png" src="images/windy-chicken.png" alt="circle">
-                    <p>40&#176; Windy</p>
-                </div>
-                <div class="forecast-3">
-                    <h2> Wednesday </h2>
-                    <img class="weather-png" src="images/pride-chicken.png" alt="circle">
-                    <p>70&#176; Sunny</p>
-                </div>
-                <div class="forecast-4">
-                    <h2> Thursday </h2>
-                    <img class="weather-png" src="images/windy-chicken.png" alt="circle">
-                    <p>60&#176; Windy</p>
-                </div>
-                <div class="forecast-5">
-                    <h2> Friday </h2>
-                    <img class="weather-png" src="images/pride-chicken.png" alt="circle">
-                    <p>70&#176; Sunny</p>
-                </div>
-            </section>
-    </section>
+        <h1 class="section-h1">5 Day Forecast</h1>
+                <section class="forecast-grid">
+                    <div class="forecast-1">
+                        <h2> Monday </h2>
+                        <img class="weather-png" src="images/snowy-chicken.png" alt="circle">
+                        <p>10&#176; Snowy</p>
+                    </div>
+                    <div class="forecast-2">
+                        <h2> Tuesday </h2>
+                        <img class="weather-png" src="images/windy-chicken.png" alt="circle">
+                        <p>40&#176; Windy</p>
+                    </div>
+                    <div class="forecast-3">
+                        <h2> Wednesday </h2>
+                        <img class="weather-png" src="images/pride-chicken.png" alt="circle">
+                        <p>70&#176; Sunny</p>
+                    </div>
+                    <div class="forecast-4">
+                        <h2> Thursday </h2>
+                        <img class="weather-png" src="images/windy-chicken.png" alt="circle">
+                        <p>60&#176; Windy</p>
+                    </div>
+                    <div class="forecast-5">
+                        <h2> Friday </h2>
+                        <img class="weather-png" src="images/pride-chicken.png" alt="circle">
+                        <p>70&#176; Sunny</p>
+                    </div>
+                </section>
+     </section>
     <section class="news">
-        <h1 class="news-h1">Local News</h1>
+        <h1 class="section-h1">Local News</h1>
         <section class="news-grid">
             <div class="news-article-1">
-                <h1 class="news-article-h1"> Article 1 </h1>
+                <h1 class="news-article-h1">Article 1 </h1>
+                <img class="news-article-img" src="images/article1.png" alt="angry-chicken">
                 <p class="news-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, optio praesentium
                     aspernatur veniam, blanditiis qui quibusdam necessitatibus consequuntur consequatur impedit dolorum
                     voluptas laboriosam esse dolor iusto earum inventore cupiditate dolores.</p>
+                <button class="learn-more">Learn More</button>
             </div>
             <div class="news-article-2">
                 <h1 class="news-article-h1"> Article 2 </h1>
+                <img class="news-article-img" src="images/article2.png" alt="small-town">
                 <p class="news-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi architecto nobis esse
                     asperiores! Nemo quisquam laboriosam saepe neque laudantium corrupti non vel eum provident dolore!
                     Est dignissimos eum corrupti ea.</p>
+                <button class="learn-more">Learn More</button>
             </div>
         </section>
     </section>
