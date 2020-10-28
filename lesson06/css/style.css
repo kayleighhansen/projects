@@ -48,6 +48,7 @@ header img {
     grid-column: 1/2;
     padding: 1rem;
     border-radius: 50%;
+    
 }
 
 header h1 {
@@ -148,8 +149,6 @@ ul {
 }
 
 .hero-banner-img {
-    width: auto; 
-    height: 35rem; 
     object-fit: cover;
     z-index: -1;
 }

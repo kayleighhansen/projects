@@ -21,3 +21,13 @@ var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("currentDate").textContent = today;
+
+
+speed = 40;
+temp = 30;
+
+x = Math.pow(speed, 0.16);
+y = 35.74 + 0.6215 * temp - 35.75 * x + 0.4275 * temp * x;
+
+wchill = Math.round(y);
+document.getElementById("chill").innerHTML = wchill;
