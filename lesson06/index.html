@@ -44,7 +44,11 @@
     </nav>
 
     <section class="hero-banner">
-        <img class="hero-banner-img" src="images/banner.jpg" alt="idaho-banner">
+        <picture>
+            <source media="(min-width:50em)" srcset="images/60hero-banner-large.jpg">
+            <source media="(min-width:40em)" srcset="images/60hero-banner-medium.jpg">
+            <img src="images/60hero-banner-small.jpg" alt="Flowers">
+          </picture>
         <section class="hero-banner-txt">
             <h1 class="hero-banner-h1">Preston Idaho</h1>
             <p class="hero-banner-p"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur libero illo,
@@ -52,11 +56,9 @@
                 molestiae ab vitae quisquam! </p>
             <h1 class="hero-banner-h1">Weather Summary</h1>
             <section class="weather-summary">
-                <p class="currently">Currently:<span id="currently">Rainy</span></p>
-                <p class="high-temp">High:<span id="high-temp">50 F</span></p>
-                <p class="wind-chill">Wind Chill:<span id="wind-chill">50 F</span></p>
-                <p class="wind-speed">Wind Speed:<span id="currently">12 mph</span></p>
-                <p class="humidity">Humidity:<span id="humidity">95%</span></p>
+                <p class="data-type"> Temperature: <span id="temp">40</span></p>
+                <p class="data-type">Wind Speed: <span id="speed">30</span></p>
+                <p class="data-type">Wind Chill: <span id="chill"></span></p>
             </section>
         </section>
     </section>
@@ -65,27 +67,27 @@
         <h1 class="section-h1">5 Day Forecast</h1>
                 <section class="forecast-grid">
                     <div class="forecast-1">
-                        <h2> Monday </h2>
+                        <h2 class="forecast-day"> Monday </h2>
                         <img class="weather-png" src="images/snowy-chicken.png" alt="circle">
                         <p>10&#176; Snowy</p>
                     </div>
                     <div class="forecast-2">
-                        <h2> Tuesday </h2>
+                        <h2 class="forecast-day"> Tuesday </h2>
                         <img class="weather-png" src="images/windy-chicken.png" alt="circle">
                         <p>40&#176; Windy</p>
                     </div>
                     <div class="forecast-3">
-                        <h2> Wednesday </h2>
+                        <h2 class="forecast-day"> Wednesday </h2>
                         <img class="weather-png" src="images/pride-chicken.png" alt="circle">
                         <p>70&#176; Sunny</p>
                     </div>
                     <div class="forecast-4">
-                        <h2> Thursday </h2>
+                        <h2 class="forecast-day"> Thursday </h2>
                         <img class="weather-png" src="images/windy-chicken.png" alt="circle">
                         <p>60&#176; Windy</p>
                     </div>
                     <div class="forecast-5">
-                        <h2> Friday </h2>
+                        <h2 class="forecast-day"> Friday </h2>
                         <img class="weather-png" src="images/pride-chicken.png" alt="circle">
                         <p>70&#176; Sunny</p>
                     </div>
@@ -120,5 +122,6 @@
     <p>Date : <span id="currentDate"></span></p>
 </footer>
 <script src="js/javascript.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>

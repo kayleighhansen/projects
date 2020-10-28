@@ -121,6 +121,7 @@
     
         .news-grid div {
             height: 450px;
+            display: grid;
         }
     
         .news-h1 {
