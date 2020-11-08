@@ -69,6 +69,8 @@
             display: none;
         }
 
+        /* Gallery Things */
+        
         .gallery-div {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
