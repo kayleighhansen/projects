@@ -251,7 +251,9 @@ ul {
 
 .map {
     margin: 5px;
-    height: 80%;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
 }
 
 .social-logo {
