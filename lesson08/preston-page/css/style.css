@@ -234,6 +234,7 @@ ul {
 .news-article-img {
     margin: 15px;
     height: 100%;
+    float: left;
 } 
 
 .news-p {
