@@ -87,6 +87,10 @@
         }
     
         /* Forecast Things */
+
+        .section-h1 {
+            margin-left: 10%;
+        }
         
         .forecast-grid {
             justify-content: center;
@@ -118,5 +122,23 @@
         }
     
         /* News Things */
-     
+
+        .news-grid {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .map {
+            height: 100%;
+            margin: 10px;
+        }
+
+        .contact-div {
+            margin-left: 20%;
+            margin-bottom: 20px;
+        }
+
+        .contact-info-div {
+            margin: 30px;
+        }
     }
