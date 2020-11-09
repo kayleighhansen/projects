@@ -123,11 +123,57 @@ main h1 {
     padding: 10px;
 }
 
+
+form {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 50px 100px;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+form p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form h2 {
+    margin: 10px -30px 40px;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=number],
+input[type=date], input[list], select
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #EB5A5F;
+    border: solid 2px #EB5A5F;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    border: solid 2px black;
+}
+
 /* Footer Things */
 
 footer {
     background-color: #EB5A5F;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    padding: 5%;
+    padding: 1%;
 }

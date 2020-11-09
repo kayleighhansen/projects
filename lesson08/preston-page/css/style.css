@@ -251,8 +251,8 @@ ul {
 
 .map {
     margin: 5px;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 275px;
     object-fit: cover;
 }
 
