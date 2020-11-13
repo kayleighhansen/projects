@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Home Page</title>
+    <meta name="author" content="Kayleigh Hansen">
+    <meta name="description" content="Lesson 09 Assignment  for Kayleigh Hansen 
+        in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Fowl Weather</h1>
+    <h2>A pun/weather site motto</h2>
+    <img src="images/logo.png" alt="fowl-weather-logo">
+</header>
+<div id="underline"></div>
+<main>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">
+                    <h2>Menu</h2>
+                    <h1>. . .</h1>
+                </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section class="general-updates">
+        <div class="covid">
+            <img class="idaho-img" src="images/idaho.png" alt="idaho">
+            <h1 class="covid-h1">Covid-19 Updates</h1>
+            <p class="covid-p">Learn more about how to protect you and your family</p>
+            <button class="covid-button" onclick="location.href = 'https://covid.cdc.gov/covid-data-tracker/index.html#county-map';">Cases By County</button>
+            <button class="covid-button" onclick="location.href = 'https://www.aarp.org/health/healthy-living/info-2020/states-mask-mandates-coronavirus.html#Idaho';">Idaho Mask Mandate</button>
+            <button class="covid-button" onclick="location.href = 'https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html';">Covid-19 Testing Sites</button>
+        </div>
+        <div class="storm">
+            <h1 class="storm-h1">Southeast Idaho Storm Report</h1>
+            <button class="storm-button" onclick="location.href = 'https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html';">Learn More</button>
+        </div>
+        <div class="social">
+            <h1 class="social-h1">Social Media Updates</h1>
+            <div class="social-imgs">
+                <img class="facebook-img" src="images/facebook.png" alt="facebook">
+                <img class="facebook-img" src="images/facebook-2.png" alt="facebook2">
+            </div>
+        </div>
+    </section>
+
+    <section class="city-updates">
+        <h1>City Updates</h1>
+        <div class="preston-update"></div>
+        <div class="fish-haven-update"></div>
+        <div class="soda-springs-update"></div>
+    </section>
+</main>
+<footer>
+
+</footer>
+<script src="js/javascript.js"></script>
+</body>

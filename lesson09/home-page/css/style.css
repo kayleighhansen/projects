@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Things */
+
+header {  
+    display: grid;
+    grid-template-columns: 55% 45%;
+    background-color:  #EB5A5F;
+}
+
+header img {
+    position: absolute;
+    text-align: right;
+    height: 70px;
+    width: auto;
+    grid-column: 1/2;
+    padding: 1rem;
+    border-radius: 50%;
+    
+}
+
+header h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+}
+
+header h2 {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+#underline {
+    margin-bottom: 3px;
+    background-color: #EF8084;
+    height: 1rem;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+/* Navigation Things */
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navigation {
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    text-align: right;
+}
+
+.navigation a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation li:hover {
+    color: black;
+    background-color: white;
+}
+
+.navigation h1 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation h2 {
+    display: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+ul {
+    background-color: #EB5A5F;
+}
+
+.responsive li {
+    display: block;
+}
+
+.menu {
+    font-size: 40px;
+}
+
+.active {
+    color:lightgray; 
+}
+
+main h1 {
+    text-align: center;
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+.general-updates {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr;
+    grid-template-rows: 5rem 15rem;
+    width: 80%;
+    margin: 20px;
+    margin-left: 10%;
+  }
+  
+  .general-updates div {
+      margin: 3px;
+      background-color: #D9D9D9;
+  }
+
+  .covid {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+    .idaho-img {
+        position: absolute;
+        height: 300px;
+        margin-top: 10px;
+        
+    }
+    .covid-h1 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .covid-p {
+        position: relative;
+        z-index: 1;
+        margin: 10% 15%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    button {
+        position: relative;
+        z-index: 1;
+        background-color: #EB5A5F;
+        margin: 3px 50px;
+        width: 150px;
+        border: 2px #EB5A5F;
+        font-family: 'Fjalla One', sans-serif;
+        padding: 2%;
+    }
+
+    button:hover {
+        background-color: white;
+        border: 2px black;
+    }
+
+  .storm {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+
+    .storm-h1 {
+        padding: 0;
+        margin: 5px;
+    }
+
+    .storm-button {
+        margin-left: 38%;
+        padding: 5px;
+    }
+
+
+  
+  .social {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+
+  .social-imgs {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+  }
+
+    .social-h1 {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .facebook-img {
+        height: 180px;
+        border-radius: 10px;
+    }
+
+
+.city-updates {
+    display: block;
+    justify-content: center;
+    margin-left: 10%;
+    width: 78%;
+    padding: 1%;
+    background-color: #90d4f5;
+    border-radius: 8px;
+ }
+
+    .city-updates div {
+        margin-bottom: 10px;
+        background-color: white;
+        height: 10rem;
+        width: 100%;
+    }
+
+
