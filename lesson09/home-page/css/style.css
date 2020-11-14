@@ -218,6 +218,7 @@ main h1 {
     display: block;
     justify-content: center;
     margin-left: 10%;
+    margin-bottom: 5%;
     width: 78%;
     padding: 1%;
     background-color: #90d4f5;
@@ -227,8 +228,39 @@ main h1 {
     .city-updates div {
         margin-bottom: 10px;
         background-color: white;
-        height: 10rem;
         width: 100%;
     }
 
+    .boxes {
+        display: flex;
+    }
+
+    .boxes section {
+        padding: 10px;
+        display: block;
+    }
+
+    .boxes section h2 {
+        font-family: 'Fjalla One', sans-serif;
+        margin: 10px;
+    }
+
+    .boxes section p {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .boxes section img {
+        height: 150px;
+        margin-right: 15%;
+    }
+
+    footer {
+        background-color: #EB5A5F;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer a {
+        color: black;
+    }
 
