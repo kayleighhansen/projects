@@ -67,4 +67,9 @@
         .menu {
             display: none;
         }
+
+        .idaho-img {
+          height: 320px;
+          margin-top: 5%;
+      }
     }
