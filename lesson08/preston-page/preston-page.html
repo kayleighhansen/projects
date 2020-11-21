@@ -45,7 +45,7 @@
     </nav>
     <section class="hero-banner">
         <picture>
-            <source media="(min-width:50em)" srcset="images/large-banner.jpg">
+            <source media="(min-width:50em)" srcset="images/banner.png">
             <source media="(min-width:40em)" srcset="images/medium-banner.jpg">
             <img class="hero-banner-img" src="images/small-banner.jpg" alt="Banner">
         </picture>
@@ -56,8 +56,10 @@
                 molestiae ab vitae quisquam! </p>
             <h1 class="hero-banner-h1">Weather Summary</h1>
             <section class="weather-summary">
-                <p class="data-type"> Temperature: <span id="temp">40</span></p>
-                <p class="data-type">Wind Speed: <span id="speed">30</span></p>
+                <p class="data-type">Currently: <span id="currently"></span></p>
+                <p class="data-type">Humidity: <span id="humidity"></span></p>
+                <p class="data-type">Temperature: <span id="temp"></span></p>
+                <p class="data-type">Wind Speed: <span id="speed"></span></p>
                 <p class="data-type">Wind Chill: <span id="chill"></span></p>
             </section>
         </section>
@@ -95,7 +97,8 @@
     <section class="news">
         <h1 class="section-h1">Local News</h1>
         <div class="news-grid">
-            <h1 class="news-article-h1">Article 1 </h1>
+            <h1 class="news-article-h1">Freaky Chicken Season</h1>
+            <p>-K. Hansen</p>
             <div class="article-content-div">
                 <img class="news-article-img" src="images/article1.png" alt="angry-chicken">
                 <p class="news-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nemo earum pariatur
