@@ -23,7 +23,7 @@
 
 <header>
     <h1>Fowl Weather</h1>
-    <h2>A pun/weather site motto</h2>
+    <h2>Motto goes here</h2>
     <img src="images/logo.png" alt="fowl-weather-logo">
 </header>
 
@@ -57,8 +57,9 @@
             <h1 class="hero-banner-h1">Weather Summary</h1>
             <section class="weather-summary">
                 <p class="data-type">Currently: <span id="currently"></span></p>
-                <p class="data-type">Humidity: <span id="humidity"></span></p>
                 <p class="data-type">Temperature: <span id="temp"></span></p>
+                <p class="data-type">High: <span id="high"></span></p>
+                <p class="data-type">Humidity: <span id="humidity"></span></p>
                 <p class="data-type">Wind Speed: <span id="speed"></span></p>
                 <p class="data-type">Wind Chill: <span id="chill"></span></p>
             </section>
@@ -70,29 +71,29 @@
         </div>
         <section class="forecast-grid">
             <div class="forecast">
-                <h2 class="forecast-day"> Monday </h2>
+                <h2 class="forecast-day"> Tomorrow </h2>
                 <img class="weather-png" src="images/snowy-chicken.png" alt="circle">
-                <p>10&#176; Snowy</p>
+                <p><span id="forecast-temp1"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> Tuesday </h2>
+                <h2 class="forecast-day"> <span id="day.2"></span> </h2>
                 <img class="weather-png" src="images/windy-chicken.png" alt="circle">
-                <p>40&#176; Windy</p>
+                <p><span id="forecast-temp2"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> Wednesday </h2>
+                <h2 class="forecast-day"> <span id="day3"></span> </h2>
                 <img class="weather-png" src="images/pride-chicken.png" alt="circle">
-                <p>70&#176; Sunny</p>
+                <p><span id="forecast-temp3"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> Thursday </h2>
+                <h2 class="forecast-day"> <span id="day4"></span> </h2>
                 <img class="weather-png" src="images/windy-chicken.png" alt="circle">
-                <p>60&#176; Windy</p>
+                <p><span id="forecast-temp4"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> Friday </h2>
+                <h2 class="forecast-day"> <span id="day5"></span> </h2>
                 <img class="weather-png" src="images/pride-chicken.png" alt="circle">
-                <p>70&#176; Sunny</p>
+                <p><span id="forecast-temp5"></span></p>
             </div>
         </section>
     </section>
@@ -137,6 +138,7 @@
     <p>Current Date <span id="currentDate"></span></p>
 </footer>
 <script src="javascript/javascript.js"></script>
+<script src="javascript/api.js"></script><script src="javascript/api2.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({ google: { families: ['Lato', 'Fjalla One', 'Open Sans'] } });</script>
 </body>
