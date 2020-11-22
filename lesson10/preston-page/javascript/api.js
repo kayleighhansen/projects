@@ -1,4 +1,4 @@
-let url = 'http://api.openweathermap.org/data/2.5/weather?id=';
+let url = 'https://api.openweathermap.org/data/2.5/weather?id=';
 let id = '5604473';
 let apiKey = 'c6ac91f3077adb38e3107379cad73e51';
 let units = "imperial";
