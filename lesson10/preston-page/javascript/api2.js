@@ -1,4 +1,4 @@
-let url2 = 'http://api.openweathermap.org/data/2.5/forecast?id=';
+let url2 = 'https://api.openweathermap.org/data/2.5/forecast?id=';
 let id2 = '5604473';
 let apiKey2 = 'cd4be470d33a0e4c2b2a197c2c84f2ae';
 let units2 = "imperial";
