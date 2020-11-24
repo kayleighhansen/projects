@@ -40,7 +40,7 @@ fetch(requestURL)
             rainfall.setAttribute("class", "data");
             town.appendChild(rainfall);
 
-            img.setAttribute("src" , towns[1].name + ".jpg");
+            img.setAttribute("src" , "home-page/" + towns[1].name + ".jpg");
             img.setAttribute("alt", towns[1].name + ".img");
             img.setAttribute("class", "img0");
             town.append(img);
@@ -83,7 +83,7 @@ fetch(requestURL)
             rainfall.setAttribute("class", "data1");
             town.appendChild(rainfall);
 
-            img.setAttribute("src" , towns[4].name + ".jpg");
+            img.setAttribute("src" , "home-page/" + towns[4].name + ".jpg");
             img.setAttribute("alt", towns[4].name + ".img");
             img.setAttribute("class", "img1");
             town.append(img);
@@ -126,7 +126,7 @@ fetch(requestURL)
             rainfall.setAttribute("class", "data2");
             town.appendChild(rainfall);
 
-            img.setAttribute("src" , towns[5].name + ".jpg");
+            img.setAttribute("src" , "home-page/" + towns[5].name + ".jpg");
             img.setAttribute("alt", towns[5].name + ".img");
             img.setAttribute("class", "img2");
             town.append(img);
