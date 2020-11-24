@@ -166,6 +166,12 @@ ul {
     padding: 10px;
 }
 
+.weather-summary h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .data-type {
     padding: 5px;
 }
