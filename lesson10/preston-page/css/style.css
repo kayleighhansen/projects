@@ -163,7 +163,7 @@ ul {
 }
 
 .weather-summary {
-    padding: 20px;
+    padding: 10px;
 }
 
 .data-type {
@@ -247,6 +247,7 @@ ul {
     text-align: center;
     padding: 20px;
     border-bottom: 3px dotted gray;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .contact-div {
