@@ -25,25 +25,29 @@ fetch(apiURL2)
     document.getElementById('forecast-temp1').innerText = day1;
 
     for (let i = 1; i <= 5; i++ ) {
-        let day = data.list[i].main.temp + "° F";
+        //daily temperatures
+        let day = Math.round(data.list[i].main.temp * 10) / 10 + "° F";
         document.getElementById('forecast-temp' + i).innerText = day;
         
-        const imagesrc = 'https://openweathermap.org/img/w/' + 
-          data.list[i].weather[0].icon + 
-          '.png';  
+        const imagesrc = 'https://openweathermap.org/img/w/' + data.list[i].weather[0].icon + '.png';  
           console.log(imagesrc);
 
           // if statements for chicken logos
-
-        if (data.list[i].weather[0].icon == "04n")  {
-
-        } 
-
-        
-
 
         document.getElementById('weather-png-' + i).textContent = imagesrc;
         document.getElementById('weather-png-' + i).setAttribute('src', imagesrc); 
         document.getElementById('weather-png-' + i).setAttribute('alt', i);
     }
+      var d = new Date();
+      var n = d.getDay();
+
+    for (let i = 1; i <= 5; i++ ) {
+      var arrayOfWeekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      n += 1;
+      if (n >= 7){
+        n -= 7;
+      }
+      document.getElementById("day" + i).innerHTML = arrayOfWeekdays[n];
+  }
+
 }); 
