@@ -93,6 +93,12 @@
             padding-left: 30px;
         }
         
+        .weather-summary {
+            margin-top: 40%;
+            background-color: white;
+            margin-left: 10%;
+        }
+
         .weather-png {
             height: 100px;
             width: 100px;

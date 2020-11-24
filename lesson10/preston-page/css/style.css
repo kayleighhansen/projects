@@ -131,9 +131,6 @@ ul {
 /* Hero Banner Things*/
 
 .hero-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 30px 0px;
 }
 
@@ -153,8 +150,10 @@ ul {
 
 .hero-banner-h2 {
     font-size: 25px;
-    border-bottom: solid black;
+    text-align: center;
+    margin-bottom: 20px;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 .hero-banner-p {
@@ -163,13 +162,20 @@ ul {
 }
 
 .weather-summary {
-    padding: 10px;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 70%;
+    background-color: white;
+    margin-left: 10%;
 }
 
 .weather-summary h2 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: solid 3px;
 }
 
 .data-type {
@@ -194,7 +200,7 @@ ul {
 .forecast-grid {
     display: flex;
     background-color: #E0E0E0;
-    margin: 10px;
+    margin: 8px;
 }
 
 .weather-png {
@@ -205,7 +211,6 @@ ul {
 
 .forecast {
     text-align: center;
-    margin-left: 4px;
 }
 
 .forecast-day {
