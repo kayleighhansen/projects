@@ -99,8 +99,9 @@ nav {
     background-color: white;
 }
 
-.navigation h1 {
-    font-size: 50px;
+.dots {
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .navigation h2 {
@@ -150,9 +151,10 @@ ul {
     position: absolute;
 }
 
-.hero-banner-h1 {
+.hero-banner-h2 {
     font-size: 25px;
     border-bottom: solid black;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .hero-banner-p {
@@ -196,8 +198,8 @@ ul {
 }
 
 .forecast {
-    padding: 5px 1%;
     text-align: center;
+    margin-left: 4px;
 }
 
 .forecast-day {
