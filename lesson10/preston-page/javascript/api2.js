@@ -1,3 +1,6 @@
+
+//Five Day Forecast 
+
 let url2 = 'https://api.openweathermap.org/data/2.5/forecast?id=';
 let id2 = '5604473';
 let apiKey2 = 'cd4be470d33a0e4c2b2a197c2c84f2ae';
@@ -29,6 +32,16 @@ fetch(apiURL2)
           data.list[i].weather[0].icon + 
           '.png';  
           console.log(imagesrc);
+
+          // if statements for chicken logos
+
+        if (data.list[i].weather[0].icon == "04n")  {
+
+        } 
+
+        
+
+
         document.getElementById('weather-png-' + i).textContent = imagesrc;
         document.getElementById('weather-png-' + i).setAttribute('src', imagesrc); 
         document.getElementById('weather-png-' + i).setAttribute('alt', i);

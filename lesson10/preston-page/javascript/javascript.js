@@ -14,9 +14,6 @@ if (day.getDay() == 5) {
   document.getElementById("alert").style.fontWeight= "bold";
 }
 
-//let d = new Date ();
-//let year = d.getFullYear();
-//document.getElementById("copywriteYear").textContent = year;
 
 //Footer Stuff
 
@@ -28,9 +25,5 @@ today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("currentDate").textContent = today;
 
 
-//Days of the week stuff
-
-let d = new Date();
-day = 'today';
 
 
