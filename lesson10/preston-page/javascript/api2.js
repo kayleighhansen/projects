@@ -24,19 +24,13 @@ fetch(apiURL2)
     for (let i = 1; i <= 5; i++ ) {
         let day = data.list[i].main.temp + "° F";
         document.getElementById('forecast-temp' + i).innerText = day;
+        
+        const imagesrc = 'https://openweathermap.org/img/w/' + 
+          data.list[i].weather[0].icon + 
+          '.png';  
+          console.log(imagesrc);
+        document.getElementById('weather-png-' + i).textContent = imagesrc;
+        document.getElementById('weather-png-' + i).setAttribute('src', imagesrc); 
+        document.getElementById('weather-png-' + i).setAttribute('alt', i);
     }
-
-    const imagesrc = 'https://openweathermap.org/img/w/' + 
-    data.weather[0].icon + 
-    '.png';  
-
-    const desc = data.weather[0].description;  
-
-    console.log(imagesrc);
-
-    document.getElementById('imagesrc').textContent = imagesrc;
-    document.getElementById('icon').setAttribute('src', imagesrc); 
-    document.getElementById('icon').setAttribute('alt', desc);
-
-
-});
+}); 

@@ -33,10 +33,4 @@ document.getElementById("currentDate").textContent = today;
 let d = new Date();
 day = 'today';
 
-for (let i = 2; i <= 5; i++ ) {
-  if (d.getDay() == 6){
-    day = "Monday";
-  }
-  document.getElementById("day." + i).innerHTML = day;
-}
 

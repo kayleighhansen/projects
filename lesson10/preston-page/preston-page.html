@@ -56,12 +56,32 @@
                 molestiae ab vitae quisquam! </p>
             <h1 class="hero-banner-h1">Weather Summary</h1>
             <section class="weather-summary">
-                <p class="data-type">Currently: <span id="currently"></span></p>
-                <p class="data-type">Temperature: <span id="temp"></span></p>
-                <p class="data-type">High: <span id="high"></span></p>
-                <p class="data-type">Humidity: <span id="humidity"></span></p>
-                <p class="data-type">Wind Speed: <span id="speed"></span></p>
-                <p class="data-type">Wind Chill: <span id="chill"></span></p>
+            <table>
+                <tr>
+                    <td><p class="data-type">Currently: </p></td>
+                    <td><p><span id="currently"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p class="data-type">Temperature: </p></td>
+                    <td><p><span id="temp"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p class="data-type">High: </p></td>
+                    <td><p><span id="high"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p class="data-type">Humidity: </p></td>
+                    <td><p><span id="humidity"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p class="data-type">Wind Speed: </p></td>
+                    <td><p><span id="speed"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p class="data-type">Wind Chill: </p></td>
+                    <td><p><span id="chill"></span></p></td>
+                </tr>
+            </table>
             </section>
         </section>
     </section>
@@ -72,27 +92,27 @@
         <section class="forecast-grid">
             <div class="forecast">
                 <h2 class="forecast-day"> Tomorrow </h2>
-                <img class="weather-png" src="images/snowy-chicken.png" alt="circle">
+                <span id="imagesrc"></span> &nbsp; <img id="weather-png-1" src="" alt="">
                 <p><span id="forecast-temp1"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> <span id="day.2"></span> </h2>
-                <img class="weather-png" src="images/windy-chicken.png" alt="circle">
+                <h2 class="forecast-day"> Tomorrow + 1 <span id="day.2"></span> </h2>
+                <span id="imagesrc"></span> &nbsp; <img id="weather-png-2" src="" alt="">
                 <p><span id="forecast-temp2"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> <span id="day3"></span> </h2>
-                <img class="weather-png" src="images/pride-chicken.png" alt="circle">
+                <h2 class="forecast-day"> Tomorrow + 2<span id="day3"></span> </h2>
+                <span id="imagesrc"></span> &nbsp; <img id="weather-png-3" src="" alt="">
                 <p><span id="forecast-temp3"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> <span id="day4"></span> </h2>
-                <img class="weather-png" src="images/windy-chicken.png" alt="circle">
+                <h2 class="forecast-day"> Tomorrow + 3<span id="day4"></span> </h2>
+                <span id="imagesrc"></span> &nbsp; <img id="weather-png-4" src="" alt="">
                 <p><span id="forecast-temp4"></span></p>
             </div>
             <div class="forecast">
-                <h2 class="forecast-day"> <span id="day5"></span> </h2>
-                <img class="weather-png" src="images/pride-chicken.png" alt="circle">
+                <h2 class="forecast-day"> Tomorrow + 4<span id="day5"></span> </h2>
+                <span id="imagesrc"></span> &nbsp; <img id="weather-png-5" src="" alt="">
                 <p><span id="forecast-temp5"></span></p>
             </div>
         </section>

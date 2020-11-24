@@ -33,14 +33,7 @@ fetch(apiURL)
     let speed = data.wind.speed;
     document.getElementById('speed').innerText = speed;
 
-    let chill = 0;
+    let formula =13.12 + (0.6215 * temp) - (11.37 * (speed ^ 0.16)) + ((0.3965 * temp) * (speed ^ 0.16));
+    chill = Math.round(formula * 10) / 10;
     document.getElementById('chill').innerText = chill;
-
-    const imagesrc = 'https://openweathermap.org/img/w/' + 
-                      data.weather[0].icon + 
-                      '.png';  
-
-    const desc = data.weather[0].description;  
-
-    console.log(imagesrc);
   });
