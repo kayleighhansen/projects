@@ -32,9 +32,9 @@ fetch(apiURL2)
         const imagesrc = 'https://openweathermap.org/img/w/' + data.list[i].weather[0].icon + '.png';  
           console.log(imagesrc);
 
-          // if statements for chicken logos
+          // weather icons
 
-        document.getElementById('weather-png-' + i).textContent = imagesrc;
+        document.getElementById('weather-png-' + i).textContent = imagesrc + i;
         document.getElementById('weather-png-' + i).setAttribute('src', imagesrc); 
         document.getElementById('weather-png-' + i).setAttribute('alt', i);
     }
