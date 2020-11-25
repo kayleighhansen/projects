@@ -26,7 +26,6 @@ header img {
     grid-column: 1/2;
     padding: 1rem;
     border-radius: 50%;
-    
 }
 
 header h1 {
@@ -117,9 +116,10 @@ ul {
     color:lightgray; 
 }
 
+
 main h1 {
     text-align: center;
-    margin: 10px 30px;
+    margin: 30px;
     padding: 10px;
 }
 
@@ -146,9 +146,13 @@ main h1 {
         margin-top: 10px;   
     }
 
-    .covid-h1 {
+    .covid-h2 {
         position: relative;
         z-index: 1;
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        padding: 10px 0px;
+
     }
 
     .covid-p {
@@ -181,9 +185,12 @@ main h1 {
     grid-row: 1/2;
   }
 
-    .storm-h1 {
+    .storm-h2 {
         padding: 0;
         margin: 5px;
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+
     }
 
     .storm-button {
@@ -196,9 +203,11 @@ main h1 {
     grid-row: 2/3;
   }
   
-    .social-h1 {
+    .social-h2 {
         margin: 0;
         padding: 10px;
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
     }
 
     .facebook-img {
@@ -218,6 +227,12 @@ main h1 {
     border-radius: 8px;
  }
 
+    .city-info {
+        padding: 10px;
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+    }
+
     .boxes div{
         background-color: white;
         margin: 5px;
@@ -235,7 +250,6 @@ main h1 {
 
     .boxes section h2 {
         font-family: 'Fjalla One', sans-serif;
-        margin: 10px;
     }
 
     .boxes section p {
@@ -246,10 +260,46 @@ main h1 {
         height: 150px;
     }
 
+    .contact-header {
+        background-color: #EF8084;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 3px dotted black;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    .contact-div {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        background-color: #EF8084;
+    }
+    
+    .map {
+        margin: 10px 10%;
+        width: 80%;
+        height: 90%;
+        object-fit: cover;
+    }
+    
+    .contact-info-div {
+        margin-top: 10%;
+    }
+    
+    .contact-info-div p {
+        padding: 5px;
+    }
+    
+    .social-logo {
+        height: 30px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+
     footer {
         background-color: #EB5A5F;
         padding: 10px;
         text-align: center;
+        font-family: 'Open Sans', sans-serif;
     }
 
     footer a {

@@ -63,28 +63,28 @@ fetch(requestURL)
             let rainfall = document.createElement('p');
             let img = document.createElement('img')
 
-            h2.textContent = towns[4].name;
+            h2.textContent = towns[5].name;
             h2.setAttribute("class", "prestonh2");
             town.appendChild(h2);
 
-            motto.textContent = "\"" + towns[4].motto + "\"";
+            motto.textContent = "\"" + towns[5].motto + "\"";
             motto.setAttribute("class", "data1");
             town.appendChild(motto);
 
-            founded.textContent = "Year Founded: " + towns[4].yearFounded;
+            founded.textContent = "Year Founded: " + towns[5].yearFounded;
             founded.setAttribute("class", "data1");
             town.appendChild(founded);
 
-            population.textContent = "Current Population: " + towns[4].currentPopulation;
+            population.textContent = "Current Population: " + towns[5].currentPopulation;
             population.setAttribute("class", "data1");
             town.appendChild(population);
 
-            rainfall.textContent = "Annual Rainfall: " + towns[4].averageRainfall + " inches";
+            rainfall.textContent = "Annual Rainfall: " + towns[5].averageRainfall + " inches";
             rainfall.setAttribute("class", "data1");
             town.appendChild(rainfall);
 
-            img.setAttribute("src" , "home-page/" + towns[4].name + ".jpg");
-            img.setAttribute("alt", towns[4].name + ".img");
+            img.setAttribute("src" , "home-page/" + towns[5].name + ".jpg");
+            img.setAttribute("alt", towns[5].name + ".img");
             img.setAttribute("class", "img1");
             town.append(img);
 
@@ -106,28 +106,28 @@ fetch(requestURL)
             let rainfall = document.createElement('p');
             let img = document.createElement('img')
 
-            h2.textContent = towns[5].name;
+            h2.textContent = towns[6].name;
             h2.setAttribute("class", "sodah2");
             town.appendChild(h2);
 
-            motto.textContent = "\"" + towns[5].motto + "\"";
+            motto.textContent = "\"" + towns[6].motto + "\"";
             motto.setAttribute("class", "data2");
             town.appendChild(motto);
 
-            founded.textContent = "Year Founded: " + towns[5].yearFounded;
+            founded.textContent = "Year Founded: " + towns[6].yearFounded;
             founded.setAttribute("class", "data2");
             town.appendChild(founded);
 
-            population.textContent = "Current Population: " + towns[5].currentPopulation;
+            population.textContent = "Current Population: " + towns[6].currentPopulation;
             population.setAttribute("class", "data2");
             town.appendChild(population);
 
-            rainfall.textContent = "Annual Rainfall: " + towns[5].averageRainfall + " inches";
+            rainfall.textContent = "Annual Rainfall: " + towns[6].averageRainfall + " inches";
             rainfall.setAttribute("class", "data2");
             town.appendChild(rainfall);
 
-            img.setAttribute("src" , "home-page/" + towns[5].name + ".jpg");
-            img.setAttribute("alt", towns[5].name + ".img");
+            img.setAttribute("src" , "home-page/" + towns[6].name + ".jpg");
+            img.setAttribute("alt", towns[6].name + ".img");
             img.setAttribute("class", "img2");
             town.append(img);
 

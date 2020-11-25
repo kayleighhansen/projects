@@ -1,4 +1,4 @@
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 40em) {
     /*medium screen, tablet size*/
         /* Header Things*/
         header {
@@ -51,7 +51,7 @@
             text-align: center;
         }
     
-        .navigation h3 {
+        .dots {
             display: none;
         }
     
@@ -80,4 +80,44 @@
             display: block;
             font-size: 20px;
         }
+    
+        /* Hero Banner Things*/
+    
+        .hero-banner-img {
+            width: 100%;
+            height: 800px;
+        }
+    
+        .hero-banner-txt {
+            margin: 0;
+        }
+    
+        /* Forecast Things */
+    
+        .forecast-grid {
+            justify-content: center;
+            margin: 2rem;
+        }
+
+        .forecast {
+            padding: 10px;
+        }
+        
+        .weather-png {
+            height: 100px;
+        }
+
+        .map {
+            margin: 10px;
+            width: 90%;
+            object-fit: cover;
+        }
+            
+        /* News Things */
+
+
+        /* Contact Things */
+
+
+
     }
