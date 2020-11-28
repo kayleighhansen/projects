@@ -1,4 +1,4 @@
-@media (min-width:65em) {
+@media (min-width:60em) {
     /*large screen desktop size*/
     
         /* Header Things*/
@@ -8,6 +8,7 @@
             grid-row: 1/3;
             padding: 10px;
             height: 100px;
+            margin-left: 30px;
         }
     
         header {
@@ -28,6 +29,7 @@
             text-align: left;
             grid-column: 2/3;
             grid-row: 2/3;
+            display: block;
         }
     
         /* Navigation Things */
@@ -68,50 +70,51 @@
             display: none;
         }
 
-        .covid-p {
-          position: relative;
-          z-index: 1;
-          margin: 20% 15%;
-          font-family: 'Open Sans', sans-serif;
-        }
+  /* Update Things*/
 
-        .boxes {
-          display: flex;
-          justify-content: center;
-          padding: 5px;
-          height: 380px;
-      }
-
-      .boxes div {
-        background-color: white;
-        margin: 5px;
-        width: 100%;
-    }
-
-      .boxes section h2 {
-        font-family: 'Fjalla One', sans-serif;
-        margin-left: 0px;
-        margin-bottom: 15px;
-      }
-
-      .boxes section {
-        display: block;
-    }
-
-
-        .idaho-img {
-          height: 320px;
-          margin-top: 5%;
-      }
-
-      .img0 {
-        margin-left: 0%;
-    }
-
-    .img2 {
-      grid-column: 2/3;
-      grid-row: 1/3;
-      margin-left: 0%;
-      margin-top: 3%;
+  .covid-p {
+    position: relative;
+    z-index: 1;
+    margin: 20% 15%;
+    font-family: 'Open Sans', sans-serif;
   }
-    }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 380px;
+  }
+
+  .boxes div {
+    background-color: white;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .boxes section h2 {
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .boxes section {
+    display: block;
+  }
+
+  .idaho-img {
+    height: 320px;
+    margin-top: 5%;
+  }
+
+  .img0 {
+    margin-left: 0%;
+  }
+
+  .img2 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  margin-left: 0%;
+  margin-top: 3%;
+  }
+}

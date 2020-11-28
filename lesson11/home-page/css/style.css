@@ -14,14 +14,14 @@ p {
 
 header {  
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 75% 25%;
     background-color:  #EB5A5F;
 }
 
 header img {
     position: absolute;
     text-align: right;
-    height: 70px;
+    height: 60px;
     width: auto;
     grid-column: 1/2;
     padding: 1rem;
@@ -33,6 +33,7 @@ header h1 {
     grid-row: 1/2;
     margin-top: 1.5rem;
     margin-left: 6rem;
+    margin-bottom: 20px;
 }
 
 header h2 {
@@ -42,6 +43,7 @@ header h2 {
     grid-row: 2/3;
     text-align: left;
     margin-left: 6rem;
+    display: none;
 }
 
 #underline {
@@ -112,13 +114,14 @@ ul {
 }
 
 .menu {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .active {
     color:lightgray; 
 }
 
+/* Top Update Things*/
 
 main h1 {
     text-align: center;
@@ -242,6 +245,7 @@ main h1 {
     .boxes {
         height: 780px;
     }
+    
     .boxes div{
         background-color: white;
         margin: 5px;

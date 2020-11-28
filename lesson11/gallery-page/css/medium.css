@@ -19,16 +19,18 @@
         }
     
         header h2 {
-            margin: 0;
+            margin: 5px 0px;
             grid-column: 2/3;
             grid-row: 2/3;
             text-align: left;
+            display: block;
         }
     
         header img {
             position: absolute;
             left: 27%;
             top: 0;
+            height: 100px;
         }
         /* Navigation Things */
     
@@ -50,8 +52,14 @@
             color: black;
             text-align: center;
         }
+
+        .navigation h2 {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+        }
     
-        .navigation h1 {
+        .navigation h3 {
             display: none;
         }
     
@@ -76,7 +84,7 @@
             color: black;
         }
     
-        .menu h2 {
+        .menu h1 {
             display: block;
             font-size: 20px;
         }

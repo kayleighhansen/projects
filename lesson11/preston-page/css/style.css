@@ -27,18 +27,18 @@ p {
 
 header {  
     display: grid;
+    grid-template-columns: 75% 25%;
     background-color:  #EB5A5F;
 }
 
 header img {
     position: absolute;
     text-align: right;
-    height: 70px;
+    height: 60px;
     width: auto;
     grid-column: 1/2;
     padding: 1rem;
     border-radius: 50%;
-    
 }
 
 header h1 {
@@ -46,6 +46,7 @@ header h1 {
     grid-row: 1/2;
     margin-top: 1.5rem;
     margin-left: 6rem;
+    margin-bottom: 20px;
 }
 
 header h2 {
@@ -55,11 +56,16 @@ header h2 {
     grid-row: 2/3;
     text-align: left;
     margin-left: 6rem;
+    display: none;
 }
 
 #underline {
+    margin-bottom: 3px;
     background-color: #EF8084;
     height: 1rem;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 3/4;
 }
 
 /* Navigation Things */
@@ -82,7 +88,8 @@ nav {
 .navigation li {
     display: none;
     text-align: right;
-    padding: 9px;
+    padding: 10px;
+    z-index: 1;
 }
 
 .navigation a {
@@ -96,11 +103,12 @@ nav {
     color: black;
     background-color: white;
 }
- 
-.dots {
-    font-size: 40px;
-    font-family: 'Fjalla One', sans-serif;
+
+.navigation h1 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 .navigation h2 {
     display: none;
@@ -119,12 +127,13 @@ ul {
 }
 
 .menu {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .active {
     color:lightgray; 
 }
+
 
 /* Hero Banner Things*/
 

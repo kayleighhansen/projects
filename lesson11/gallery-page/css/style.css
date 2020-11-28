@@ -15,19 +15,18 @@ p {
 
 header {  
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 75% 25%;
     background-color:  #EB5A5F;
 }
 
 header img {
     position: absolute;
     text-align: right;
-    height: 70px;
+    height: 60px;
     width: auto;
     grid-column: 1/2;
     padding: 1rem;
     border-radius: 50%;
-    
 }
 
 header h1 {
@@ -35,6 +34,7 @@ header h1 {
     grid-row: 1/2;
     margin-top: 1.5rem;
     margin-left: 6rem;
+    margin-bottom: 20px;
 }
 
 header h2 {
@@ -44,6 +44,7 @@ header h2 {
     grid-row: 2/3;
     text-align: left;
     margin-left: 6rem;
+    display: none;
 }
 
 #underline {
@@ -75,6 +76,8 @@ nav {
 .navigation li {
     display: none;
     text-align: right;
+    padding: 10px;
+    z-index: 1;
 }
 
 .navigation a {
@@ -94,6 +97,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .navigation h2 {
     display: none;
 }
@@ -111,12 +115,14 @@ ul {
 }
 
 .menu {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .active {
     color:lightgray; 
 }
+
+/*Gallery Things*/
 
 main h1 {
     text-align: center;
@@ -132,7 +138,7 @@ main h1 {
 
 figure img {
     max-height: 300px;
-    max-width: 400px;
+    max-width: 300px;
     object-fit: cover;
     margin: 5%;
 }
