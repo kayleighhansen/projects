@@ -67,4 +67,11 @@
         .menu {
             display: none;
         }
+
+        fieldset {
+          margin: 2% 20%;
+          width: 60%;
+          display: block;
+          text-align: center;
+      }
     }

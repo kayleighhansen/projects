@@ -41,7 +41,7 @@
         <h2>Submit a report of a storm in your area</h2>
         <fieldset>
             <label for="fullname" class="required">*Full Name </label><br>
-                <input type="text" id="fullname" name="fullname" pattern="(/w| ){5,}" required><br>
+                <input type="text" id="fullname" name="fullname" pattern="(/w| ){5,}" placeholder="First Last" required><br>
             <label for="email">Email</label><br>
                 <input type="email" id="email" name="email" placeholder="myemail@gmail.com"><br>
             <label for="phone" class="required">*Phone</label><br>
@@ -60,7 +60,7 @@
                     <option value="Tornado"></option>
                 </datalist>
             <label for="severity">Storm Severity </label><br>
-                <input type="number" id="severity" name="storm-severity"><br>
+                <input type="number" id="severity" placeholder="1 - 10" name="storm-severity"><br>
             <label for="regions">Storm Region</label><br>
                 <select name="regions" id="regions">
                     <option value="placeholder">Select Option</option>
@@ -76,7 +76,7 @@
                 <input type=radio id="maybe-danger" name="danger" value="maybe">
                     <label for="maybe-danger">Maybe</label><br><br>
             <label for="info-box">Additional Storm Information</label><br>
-                <textarea id="info-box" name="info-box" rows="5" cols="50"></textarea><br>
+                <textarea id="info-box" name="info-box" rows="5" cols="30"></textarea><br>
             <input type="submit" value="Send Storm Report">
         </fieldset>
     </form>
