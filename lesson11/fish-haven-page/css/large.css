@@ -8,6 +8,7 @@
             grid-row: 1/3;
             padding: 10px;
             height: 100px;
+            margin-left: 30px;
         }
     
         header {
@@ -28,6 +29,7 @@
             text-align: left;
             grid-column: 2/3;
             grid-row: 2/3;
+            display: block;
         }
     
         /* Navigation Things */
@@ -46,7 +48,6 @@
           justify-content: center;
         }
         
-    
         li {
           float: left;
         }
@@ -72,7 +73,8 @@
         /* Hero Banner Things */
     
         .hero-banner-img {
-            width: 100%;
+            width: 90%;
+            margin-left: 5%;
             height: 600px;
             object-fit: cover;
             }
@@ -96,7 +98,7 @@
         .weather-summary {
             margin-top: 350px;
             background-color: white;
-            margin-left: 10%;
+            margin-left: 15%;
         }
 
         .weather-png {
@@ -110,12 +112,42 @@
             font-size: 15px;
             padding: 10px;
         }
+
+        .forecast {
+            padding: 10px 4%;
+        }
+
+        .forecast-grid {
+            justify-content: center;
+            margin: 1rem 15%;
+        }
     
         .news-article-img {
+            object-fit: cover;
+            border-radius: 50%;
             float: left;
             margin: 0px 15px;
+            height: 200px;
+            width: 200px;
         }
 
         /* News Things */
+
+        .news-grid {
+            margin: 2% 15%;
+            padding: 20px;
+        }
+
+
+        .news-grid p {
+            text-align: left;
+        }
+
+        .news-article-h1 {
+            font-size: 20px;
+            margin: 20px 0px;
+            font-family: 'Fjalla One', sans-serif;
+            text-align: left;
+        }
 
     }
