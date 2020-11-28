@@ -19,7 +19,7 @@
         }
     
         header h2 {
-            margin: 0;
+            margin: 5px 0px;
             grid-column: 2/3;
             grid-row: 2/3;
             text-align: left;
@@ -50,6 +50,13 @@
             color: black;
             text-align: center;
         }
+
+
+.navigation h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
     
         .navigation h3 {
             display: none;
@@ -91,8 +98,6 @@
         .facebook-img {
             height: 80%;
             border-radius: 10px;
-            margin-left: 25%;
-            margin-right: 25%;
         }
 
         .idaho-img {
@@ -108,6 +113,7 @@
         .boxes {
             display: block;
             padding: 5px;
+            height: 600px;
         }
 
         .boxes div{
@@ -126,6 +132,15 @@
             width: 80%;
             margin-left: 10%;
             margin-right: 10%;
+        }
+
+        .boxes section h2 {
+            font-family: 'Fjalla One', sans-serif;
+            margin-left: 100px;
+        }
+
+        .boxes section img {
+            height: 150px;
         }
 
         .sodah2  {
@@ -152,7 +167,6 @@
 
         .data1 {
             grid-column: 2/3;
-            margin-left: 100px;
         }
 
         .img1 {

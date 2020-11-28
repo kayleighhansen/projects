@@ -100,7 +100,7 @@
         }
 
         .forecast {
-            padding: 10px;
+            padding: 10px 5%;
         }
         
         .weather-png {
@@ -108,13 +108,31 @@
         }
 
         .map {
-            margin: 10px;
-            width: 90%;
+            margin: 10px 25%;
+            width: 50%;
             object-fit: cover;
         }
             
         /* News Things */
 
+        .news-article-img {
+            margin: 0% 35%;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .news-grid p {
+            text-align: center;
+        }
+
+        .news-article-h1 {
+            font-size: 20px;
+            margin: 20px 0px;
+            font-family: 'Fjalla One', sans-serif;
+            text-align: center;
+        }
 
         /* Contact Things */
 

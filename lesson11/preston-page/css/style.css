@@ -184,8 +184,12 @@ ul {
 
 .header {
     background-color: #90d4f5;
+    width: 90%;
+    margin-left: 5%;
     box-shadow: 1px 1px 2px #51c4f1;
+    font-family: 'Fjalla One', sans-serif;
 }
+
 
 .section-h1 {
     font-size: 25px;
@@ -197,7 +201,7 @@ ul {
 
 .forecast-grid {
     display: flex;
-    background-color: #E0E0E0;
+    justify-content: center;
     margin: 8px;
 }
 
@@ -239,9 +243,10 @@ ul {
 }
 
 .news-article-img {
-    margin: 5px;
+    margin: 0% 15%;
     height: 200px;
-    width: 300px;
+    width: 200px;
+    border-radius: 50%;
     object-fit: cover;
 } 
 
@@ -251,13 +256,6 @@ ul {
 
 /* Contact Things */
 
-.contact-header {
-    background-color:  #EF8084;
-    text-align: center;
-    padding: 20px;
-    border-bottom: 3px dotted gray;
-    font-family: 'Fjalla One', sans-serif;
-}
 
 .contact-div {
     display: grid;

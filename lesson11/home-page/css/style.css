@@ -73,6 +73,8 @@ nav {
 .navigation li {
     display: none;
     text-align: right;
+    padding: 10px;
+    z-index: 1;
 }
 
 .navigation a {
@@ -91,6 +93,7 @@ nav {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .navigation h2 {
     display: none;
@@ -125,8 +128,8 @@ main h1 {
 
 .general-updates {
     display: grid;
-    grid-template-columns: 30% 35% 35%;
-    grid-template-rows: 6rem 20rem;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 8rem 18rem;
     width: 100%;
   }
   
@@ -158,7 +161,7 @@ main h1 {
     .covid-p {
         position: relative;
         z-index: 1;
-        margin: 10% 15%;
+        margin: 28% 15%;
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -169,10 +172,11 @@ main h1 {
         width: 120px;
         height: 44px;
         margin: 2px;
-        margin-left: 10%;
+        margin-left: 5%;
         border: 2px #EB5A5F;
         font-family: 'Fjalla One', sans-serif;
         padding: 2%;
+        border-radius: 10px;
     }
 
     button:hover {
@@ -194,8 +198,10 @@ main h1 {
     }
 
     .storm-button {
-        margin-left: 38%;
+        margin-left: 25%;
         padding: 5px;
+        z-index: 0;
+        background-color: #90d4f5;
     }
   
   .social {
@@ -211,9 +217,9 @@ main h1 {
     }
 
     .facebook-img {
-        height: 180px;
-        border-radius: 10px;
-        margin-left: 20%;
+        height: 150px;
+    border-radius: 10px;
+    margin-left: 5%;
     }
 
 
@@ -233,14 +239,13 @@ main h1 {
         text-align: center;
     }
 
+    .boxes {
+        height: 780px;
+    }
     .boxes div{
         background-color: white;
         margin: 5px;
-        max-width: 30%;
-    }
-
-    .boxes {
-        display: flex;
+        max-width: 95%;
     }
 
     .boxes section {
@@ -257,7 +262,7 @@ main h1 {
     }
 
     .boxes section img {
-        height: 150px;
+        height: 100px;
     }
 
     .contact-header {
