@@ -1,0 +1,133 @@
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans';
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+.logo {
+    height: 90px;
+    width: 180px;
+    margin-left: 5%;
+}
+
+.hero-banner-img {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    margin-top: 5px;
+}
+
+.hero-banner-text {
+    padding: 10px;
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+}
+
+.hero-banner-text h2 {
+    font-size: 20px;
+}
+
+.hero-banner-text p {
+    font-size: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.rental-info-div h2 {
+    margin-top: 20px;
+}
+
+.rental-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.rental-div {
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.rental-div img {
+    width: 50px;
+}
+
+.weather-report-div {
+    background-color: #628395;
+    padding: 20px;
+    margin:10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.weather-report-div h2 {
+    margin-bottom: 10px;
+}
+
+.weather-report-div p {
+    font-size: 12px;
+}
+
+.weather-report-div table {
+    background-color: white;
+    width: 100%;
+    padding: 5px 20px;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-info-div {
+    background-color: #628395;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.contact-info-div table {
+    margin: 10px 20%;
+    width: 90%;
+}
+
+.contact-information-images {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-information-images img {
+    height: 6rem;
+    border-radius: 10px;
+    margin: 0px 3%;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo {
+    height: 44px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Open Sans';
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Scoots | Home Page</title>
+    <meta name="author" content="Kayleigh Hansen">
+    <meta name="description" content="Lesson 12 Project  for Kayleigh Hansen 
+        in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="home-css/style.css">
+    <link rel="stylesheet" href="home-css/medium.css">
+    <link rel="stylesheet" href="home-css/large.css">
+
+    <link rel="stylesheet" href="nav-style/style.css">
+    <link rel="stylesheet" href="nav-style/medium.css">
+    <link rel="stylesheet" href="nav-style/large.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo" class="logo">
+    </header>
+    <main>
+        <nav >
+            <ul class="navigation">
+                <li><a class="astericks-menu" href="#">
+                    <h3>&#8801;</h3></a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+            </ul>
+        </nav>
+    <section class="hero-banner-section">
+        <!--<div class="hero-banner-text">
+            <h2>Let's Go Places!</h2>
+            <p>Epic off-roading adventures in Cancun Mexico!</p>
+        </div>-->
+        <img src="images/hero-banner.png" alt="banner" class="hero-banner-img">
+        
+    </section>
+    <section class="weather-rental-information-section">
+        <div class="rental-info-div">
+            <h2>Available Rentals</h2>
+            <div class="rental-info-grid">
+                <div class="rental-div">
+                    <h3>Honda Metro Scooter</h3>
+                    <img src="images/scooter1.png" alt="scooter1">
+                    <p>49cc- Max Persons 2</p>
+                </div>
+                <div class="rental-div">
+                    <h3>Honda Dio Scooter</h3>
+                    <img src="images/scooter2.png" alt="scooter2">
+                    <p>110cc- Max Persons 2</p>
+                </div>
+                <div class="rental-div">
+                    <h3>Honda PCX150 Scooter</h3>
+                    <img src="images/scooter3.png" alt="scooter3">
+                    <p>149cc- Max Persons 2</p>
+                </div>
+                <div class="rental-div">
+                    <h3>Honda Pioneer ATV</h3>
+                    <img src="images/atv.png" alt="atv">
+                    <p>Max Persons 4</p>
+                </div>
+                <div class="rental-div">
+                    <h3>Jeep Wrangler 4 door</h3>
+                    <img src="images/car.png" alt="car">
+                    <p>Manual/AC Max Persons 4</p>
+                </div>
+                <div class="rental-div">
+                    <h3>Jeep Wrangler 2 door</h3>
+                    <img src="images/car.png" alt="car">
+                    <p>Manual/Open Max Persons 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="weather-report-div">
+            <h2>Weather Report</h2>
+            <p>Bienvenido! Welcome to Cancun!</p>
+            <table>
+                <tr>
+                    <td>Currently, there is: </td>
+                    <td><span id="currently-description">!</span></td>
+                </tr>
+                <tr>
+                    <td>Temp:</td>
+                    <td><span id="currently-temp">°</span></td>
+                </tr>
+                <tr>
+                    <td>Humidity:</td>
+                    <td><span id="humidity">%</span></td>
+                </tr>
+                <tr>
+                    <td>Next Week:</td>
+                    <td><span id="next-week">°</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="contact-information-section">
+        <div class="contact-information-images">
+            <img src="images/man-on-scooter.png" alt="scooter" class="man-scooter-img">
+            <img src="images/car-in-mud.png" alt="car-mud" class="man-car-img">
+            <img src="images/window.png" alt="window" class="window">
+        </div>
+        <div class="contact-info-div">
+            <h2>Contact Us!</h2>
+            <table>
+                <tr>
+                    <td>Phone:</td>
+                    <td>123-456-1234</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>scoots@rentals.com</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>4567 Rental, Cancun MX</td>
+                </tr>
+            </table> 
+            <div class="social-media-links">
+                <a href="https://www.facebook.com/"><img class="social-logo" src="images/facebook.png"
+                    alt="facebook-logo"></a></td>
+                <a href="https://www.instagram.com/"><img class="social-logo" src="images/instagram.png"
+                    alt="instagram-logo"></a>
+                <a href="https://www.twitter.com/"><img class="social-logo" src="images/twitter.png"
+                        alt="twitter-logo"></a>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        @ Kayleigh Hansen | BYU-Idaho | WDD230 
+    </footer>
+</body>
+<script src="javascript/weather.js"></script>
+<script src="javascript/nav.js"></script>
+
+</html>

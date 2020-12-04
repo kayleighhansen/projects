@@ -1,0 +1,30 @@
+@media screen and (min-width: 45em) {
+
+    .active {
+        background-color: white;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    li a {
+        padding: 0px 4rem;
+    }
+
+    li:hover {
+        background-color:white;
+    }
+
+    ul {
+        background-color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(white, #d0ce7c, #d0ce7c);
+    }
+}

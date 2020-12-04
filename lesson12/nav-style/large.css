@@ -1,0 +1,11 @@
+@media screen and (min-width: 65em) {
+
+    .logo {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    li a {
+        padding: 0px 6rem;
+    }
+}

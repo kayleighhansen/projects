@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+    font-size: 30px;
+}
+
+.navigation li {
+    display: none;
+    text-align: center;
+    font-family: 'Open Sans';
+    padding: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black; 
+    text-align: center;  
+}
+
+ul {
+    background-image: linear-gradient(white, #d0ce7c, #d0ce7c);
+}
+
+.responsive li {
+    display: block;
+}
