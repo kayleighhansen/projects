@@ -1,0 +1,21 @@
+@media screen and (min-width: 45em) {
+
+    .weather-report-div {
+        width: 70%;
+        margin: 50px 12%;
+    }
+
+    .contact-info-div table {
+        margin: 10px 35%;
+    }
+
+    .contact-information-images img {
+        height: 8rem;
+        width: 11rem;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 1%;
+    }
+
+    
+}

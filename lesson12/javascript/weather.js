@@ -19,13 +19,13 @@ fetch(apiURL)
     let description = data.list[0].weather[0].description;
     document.getElementById('currently-description').innerText = description;
 
-    let temp = data.list[0].weather[0].description;
+    let temp = Math.round(data.list[0].main.temp)  + ' °F';
     document.getElementById('currently-temp').innerText = temp;
 
-    let humidity = data.list[0].weather[0].description;
+    let humidity = data.list[0].main.humidity  + '%';
     document.getElementById('humidity').innerText = humidity;
 
-    let next = data.list[0].weather[0].description;
+    let next = data.list[5].weather[0].description;
     document.getElementById('next-week').innerText = next;
     
   });

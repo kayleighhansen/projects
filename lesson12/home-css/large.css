@@ -1,0 +1,41 @@
+@media screen and (min-width: 60em) {
+
+.weather-rental-information-section{
+    display: flex;
+    width: 90%;
+    margin: 0;
+}
+
+.weather-report-div {
+    width: 30%;
+    margin: 30px 0px;
+}
+
+.rental-info-div {
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.rental-div img {
+    width: 70px;
+}
+
+.rental-div {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.contact-info-div table {
+    margin: 10px 40%;
+}
+
+.contact-information-images img {
+    height: 10rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 1%;
+}
+
+}

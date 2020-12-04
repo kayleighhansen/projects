@@ -4,8 +4,13 @@
         background-color: white;
     }
 
+    .logo {
+        position: static;
+    }
+
     .navigation li:first-child {
         display: none;
+
     }
 
     .navigation li {
