@@ -1,0 +1,50 @@
+h1, h2, h3 {
+    margin: 3% 0%;
+}
+
+p {
+    margin: 5%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.adience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.audience-description img{
+    height: 150px;
+    width: auto;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+
+.site-map-img {
+    display: flex;
+    justify-content: center;
+}
+
+.site-maps img{
+    height: 500px;
+}
+
+.color-scheme {
+    display: flex;
+    justify-content: center;
+}
+
+.colors {
+    width: 600px;
+}
+
+.color-p {
+    text-align: center;
+}
+
+.typography {
+    text-align: center;
+}

@@ -1,11 +1,17 @@
 @media screen and (min-width: 65em) {
 
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
     .logo {
-        margin-left: 40%;
-        margin-right: 40%;
+        height: 100px;
+        margin-left: 0;
     }
 
     li a {
-        padding: 0px 6rem;
+        padding: 0px 5rem;
     }
+    
 }
