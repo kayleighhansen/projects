@@ -1,0 +1,69 @@
+{
+    "metro": [
+        {
+            "max-persons": 1,
+            "reservations": {
+                "half-day": 20,
+                "full-day": 30
+            },
+            "walk-in": {
+                "half-day": 25,
+                "full-day": 35
+            }
+        }
+    ],
+    "dio": [
+        {
+            "max-persons": 2,
+            "reservations": {
+                "half-day": 30,
+                "full-day": 40
+            },
+            "walk-in": {
+                "half-day": 35,
+                "full-day": 45
+            }
+        }
+    ],
+    "pcx": [
+        {
+            "max-persons": 2,
+            "reservations": {
+                "half-day": 40,
+                "full-day": 40
+            },
+            "walk-in": {
+                "half-day": 45,
+                "full-day": 55
+            }
+        }
+    ],
+    "jeep-wrangler": [
+        {
+            "door": {
+                "2": {
+                    "max-persons": 4,
+                    "reservations": {
+                        "half-day": 60,
+                        "full-day": 85
+                    },
+                    "walk-in": {
+                        "half-day": 70,
+                        "full-day": 90
+                    }
+                },
+                "4": {
+                    "max-persons": 4,
+                    "reservations": {
+                        "half-day": 60,
+                        "full-day": 85
+                    },
+                    "walk-in": {
+                        "half-day": 70,
+                        "full-day": 90
+                    }
+                }
+            }
+        }
+    ]
+}

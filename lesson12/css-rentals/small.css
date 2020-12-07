@@ -1,0 +1,54 @@
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    margin: 0px 30px;
+}
+
+table {
+    padding: 30px;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+.terms h3 {
+    font-size: 12px;
+    margin: 5px 20px;
+}
+
+.rental-calculator {
+    background-color: #d0ce7c;
+    width: 80%;
+    border-radius: 10px;
+    margin: 40px 10%;
+    padding: 5px;
+}
