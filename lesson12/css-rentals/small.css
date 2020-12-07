@@ -40,9 +40,10 @@ td, th {
     padding: 8px;
   }
 
-.terms h3 {
+.terms p{
     font-size: 12px;
-    margin: 5px 20px;
+    margin: 5px 40px;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 .rental-calculator {

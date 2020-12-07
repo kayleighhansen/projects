@@ -38,3 +38,11 @@ ul {
 .responsive li {
     display: block;
 }
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Open Sans';
+    background-color: #E4E0DD;
+    padding: 2%;
+}
