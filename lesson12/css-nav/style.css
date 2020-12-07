@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .logo {
     height: 55px;
     width: auto;
@@ -45,5 +44,4 @@ footer {
     font-family: 'Open Sans';
     background-color: #E4E0DD;
     padding: 2%;
-    margin-top: 5%;
 }
