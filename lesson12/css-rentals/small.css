@@ -11,7 +11,7 @@ h2 {
     margin-top: 20px;
 }
 
-h3 {
+.info-text h3 {
     font-family: 'Open Sans';
     margin-top: 10px;
     margin-left: 10px;
@@ -42,8 +42,12 @@ td, th {
 
 .terms p{
     font-size: 12px;
-    margin: 5px 40px;
+    margin: 5px 6%;
     font-family: 'Bubblegum Sans', cursive;
+}
+
+.rental-info {
+    margin-left: 5%;
 }
 
 .rental-calculator {
