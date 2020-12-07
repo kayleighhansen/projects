@@ -2,7 +2,7 @@
 h1 {
     font-family: 'Bubblegum Sans', cursive;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 h2 {
@@ -96,7 +96,7 @@ td {
 }
 
 .contact-info-div {
-    background-color: #96897b;
+    background-color: #E4E0DD;
     border: none;
     padding: 20px;
     margin-top: 20px;
@@ -131,6 +131,8 @@ td {
 
 footer {
     text-align: center;
+    font-size: 10px;
     font-family: 'Open Sans';
-    background-color: #96897b;
+    background-color: #E4E0DD;
+    padding: 2%;
 }

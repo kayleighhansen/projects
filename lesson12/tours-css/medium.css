@@ -1,0 +1,32 @@
+@media screen and (min-width: 45em) { 
+
+    img {
+        height: 120px;
+        width: 150px;
+        border-radius: 5%;
+    }
+
+    h3 {
+        font-size: 15px;
+    } 
+
+    p {
+        font-size: 12px;
+    }
+
+    .images-section img {
+        margin: 30px;
+    }
+
+    .beaches-section-text {
+        margin: 15%;
+    }
+    
+    .nature-section-text {
+        margin: 15%;
+    }
+    
+    .culture-section-text {
+        margin: 15%;
+    }
+}
