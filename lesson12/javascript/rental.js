@@ -22,10 +22,15 @@ fetch(rentalurl)
 
             //rentals[0].reservation["half-day"]
 
-            for(i=0; i < 6; i++) {
+            for(i = 0; i < 6; i++) {
                 //console.log(rentals[i].reservation["half-day"]);
-                let r_halfday = rentals[i].reservation.half-day;
+                let r_halfday = "$" + rentals[0].reservation.fullday;
                 document.getElementById('r.half'+ i).innerText = r_halfday;
             }
             
+            for(i = 0; i < 6; i++) {
+                //console.log(rentals[i].reservation["half-day"]);
+                let w_halfday = "$" + rentals[2].reservation.halfday;
+                document.getElementById('w.half'+ i).innerText = w_halfday;
+            }
   });
