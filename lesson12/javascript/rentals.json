@@ -1,6 +1,7 @@
 {
     "metro": [
         {
+            "name": "Honda Metropolitan",
             "max-persons": 1,
             "reservations": {
                 "half-day": 20,
@@ -14,6 +15,7 @@
     ],
     "dio": [
         {
+            "name": "Honda Dio",
             "max-persons": 2,
             "reservations": {
                 "half-day": 30,
@@ -27,6 +29,7 @@
     ],
     "pcx": [
         {
+            "name":"Honda PCX150",
             "max-persons": 2,
             "reservations": {
                 "half-day": 40,
@@ -38,10 +41,25 @@
             }
         }
     ],
+    "pioneer": [
+        {
+            "name":"Honda Pioneer 1000",
+            "max-persons": 4,
+            "reservations": {
+                "half-day": 50,
+                "full-day": 70
+            },
+            "walk-in": {
+                "half-day": 60,
+                "full-day": 70
+            }
+        }
+    ],
     "jeep-wrangler": [
         {
             "door": {
                 "2": {
+                    "name": "Jeep Wrangler - 2 door",
                     "max-persons": 4,
                     "reservations": {
                         "half-day": 60,
@@ -53,6 +71,7 @@
                     }
                 },
                 "4": {
+                    "name": "Jeep Wrangler - 4 door",
                     "max-persons": 4,
                     "reservations": {
                         "half-day": 60,
