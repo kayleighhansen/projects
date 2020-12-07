@@ -9,28 +9,33 @@ fetch(rentalurl)
         const rentals = jsonObject['rentals'];
 
             for(i=0; i < 6; i++) {
-                console.log(rentals[i]["name"]);
                 let name = rentals[i]["name"];
                 document.getElementById('scooter'+ i).innerText = name;
             }
 
             for(i=0; i < 6; i++) {
-                console.log(rentals[i]["max-persons"]);
                 let persons = rentals[i]["max-persons"];
                 document.getElementById('person'+ i).innerText = persons;
             }
 
-            //rentals[0].reservation["half-day"]
-
             for(i = 0; i < 6; i++) {
-                //console.log(rentals[i].reservation["half-day"]);
-                let r_halfday = "$" + rentals[0].reservation.fullday;
+                let r_halfday = "$" + rentals[i].reservation.fullday;
                 document.getElementById('r.half'+ i).innerText = r_halfday;
             }
             
             for(i = 0; i < 6; i++) {
-                //console.log(rentals[i].reservation["half-day"]);
-                let w_halfday = "$" + rentals[2].reservation.halfday;
+                let r_fullday = "$" + rentals[i].reservation.halfday;
+                document.getElementById('r.full'+ i).innerText = r_fullday;
+            }
+
+            for(i = 0; i < 6; i++) {
+                let w_halfday = "$" + rentals[i].walk.halfday;
                 document.getElementById('w.half'+ i).innerText = w_halfday;
+            }
+
+            for(i = 0; i < 6; i++) {
+                console.log(rentals[i].walk.fullday)
+                let w_fullday = "$" + rentals[i].walk.fullday;
+                document.getElementById('w.full'+ i).innerText = w_fullday;
             }
   });

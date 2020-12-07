@@ -43,7 +43,7 @@
                 "halfday": 50,
                 "fullday": 70
             },
-            "walk-in": {
+            "walk": {
                 "halfday": 60,
                 "fullday": 70
             }
@@ -55,7 +55,7 @@
                 "halfday": 60,
                 "fullday": 85
             },
-            "walk-in": {
+            "walk": {
                 "halfday": 70,
                 "fullday": 90
             }
@@ -67,7 +67,7 @@
                 "halfday": 60,
                 "fullday": 85
             },
-            "walk-in": {
+            "walk": {
                 "halfday": 70,
                 "fullday": 90
             }
