@@ -4,72 +4,72 @@
             "name": "Honda Metropolitan",
             "max-persons": 1,
             "reservation": {
-            "half-day": 20,
-            "full-day": 30
+                "halfday": 20,
+                "fullday": 30
             },
             "walk": {
-                "half-day": 25,
-                "full-day": 35
+                "halfday": 25,
+                "fullday": 35
             }
         },
         {
             "name": "Honda Dio",
             "max-persons": 2,
             "reservations": {
-                "half-day": 30,
-                "full-day": 40
+                "halfday": 30,
+                "fullday": 40
             },
             "walk": {
-                "half-day": 35,
-                "full-day": 45
+                "halfday": 35,
+                "fullday": 45
             }
         },
         {
             "name":"Honda PCX150",
             "max-persons": 2,
             "reservations": {
-                "half-day": 40,
-                "full-day": 40
+                "halfday": 40,
+                "fullday": 40
             },
             "walk": {
-                "half-day": 45,
-                "full-day": 55
+                "halfday": 45,
+                "fullday": 55
             }
         },
         {
             "name":"Honda Pioneer 1000",
             "max-persons": 4,
             "reservations": {
-                "half-day": 50,
-                "full-day": 70
+                "halfday": 50,
+                "fullday": 70
             },
             "walk-in": {
-                "half-day": 60,
-                "full-day": 70
+                "halfday": 60,
+                "fullday": 70
             }
         },
         {
             "name": "Jeep Wrangler - 2 door",
-            "max-persons": 4,
+            "max-persons": 2,
             "reservations": {
-                "half-day": 60,
-                "full-day": 85
+                "halfday": 60,
+                "fullday": 85
             },
             "walk-in": {
-                "half-day": 70,
-                "full-day": 90
+                "halfday": 70,
+                "fullday": 90
             }
         },
         {
             "name": "Jeep Wrangler - 4 door",
             "max-persons": 4,
             "reservations": {
-                "half-day": 60,
-                "full-day": 85
+                "halfday": 60,
+                "fullday": 85
             },
             "walk-in": {
-                "half-day": 70,
-                "full-day": 90
+                "halfday": 70,
+                "fullday": 90
             }
         }
     ]

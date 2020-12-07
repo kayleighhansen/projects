@@ -6,11 +6,26 @@ fetch(rentalurl)
     })
     .then(function (jsonObject) {
         console.log(jsonObject);  
-        const data = jsonObject['data'];
-        for (let i = 0; i < 6; i++ ) {
+        const rentals = jsonObject['rentals'];
 
-            console.log(pioneer[0]["max-persons"])
-            let name = pioneer[0]["max-persons"];
-            document.getElementById('scooter-name-' + i).innerText = name;
-        }
+            for(i=0; i < 6; i++) {
+                console.log(rentals[i]["name"]);
+                let name = rentals[i]["name"];
+                document.getElementById('scooter'+ i).innerText = name;
+            }
+
+            for(i=0; i < 6; i++) {
+                console.log(rentals[i]["max-persons"]);
+                let persons = rentals[i]["max-persons"];
+                document.getElementById('person'+ i).innerText = persons;
+            }
+
+            //rentals[0].reservation["half-day"]
+
+            for(i=0; i < 6; i++) {
+                //console.log(rentals[i].reservation["half-day"]);
+                let r_halfday = rentals[i].reservation.half-day;
+                document.getElementById('r.half'+ i).innerText = r_halfday;
+            }
+            
   });
