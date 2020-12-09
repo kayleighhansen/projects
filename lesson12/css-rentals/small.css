@@ -29,15 +29,17 @@ table {
     font-family: 'Open Sans';
     font-size: 10px;
     border-collapse: collapse;
+    border-bottom: 1px solid #dddddd;
     width: 90%;
     margin-left: 5%;
     margin-top: 20px;
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+
   }
 
 .terms p{
@@ -48,6 +50,7 @@ td, th {
 
 .rental-info {
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .rental-calculator {
