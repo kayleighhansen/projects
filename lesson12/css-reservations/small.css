@@ -60,7 +60,7 @@ th {
 fieldset {
     display: flex;
     justify-content: center;
-    margin: 5% 1%;
+    margin: 2% 1%;
     border-radius: 10px;
     border: solid 2px #628395;
 }
@@ -73,7 +73,8 @@ label {
     font-family: 'Open Sans';
 }
 
-input#type, input#date, input#period, input#number, input#text, input#phone, input#name, input#email, input#cruise, input#driver {
+input#type, input#date, input#period, input#number, input#text, 
+input#phone, input#name, input#email, input#cruise, input#driver {
     height: 50px;
 }
 

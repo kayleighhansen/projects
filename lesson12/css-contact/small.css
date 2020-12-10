@@ -17,6 +17,11 @@ p {
     font-family: 'Open Sans';
 }
 
+label {
+    font-family: 'Open Sans';
+
+}
+
 iframe {
     border-radius: 10px;
     box-shadow: 2px 2px 3px 3px lightgray;
@@ -30,15 +35,13 @@ iframe {
     display: flex;
     justify-content: center;
     padding: 10px;
-    border-radius: 10px;
-    border: none;
 }
 
 input#text, textarea{
     width: 250px;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #d0ce7c;
+    border: 1px solid lightgray;
 }
 
 .button {
@@ -71,4 +74,3 @@ button:hover {
 .thanks-h1 {
     margin: 10%;
 }
-
