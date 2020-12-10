@@ -17,7 +17,58 @@ p {
     font-family: 'Open Sans';
 }
 
-.contact-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+iframe {
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px lightgray;
 }
+
+.contact-section {
+    display: block;
+}
+
+.map, .contact-info-div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input#text, textarea{
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d0ce7c;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #d0ce7c;
+    background-color: #e2e2be;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.thanks-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks-logo img {
+    object-fit: cover;
+    height: 100px;
+}
+
+.thanks-h1 {
+    margin: 10%;
+}
+
