@@ -15,9 +15,7 @@
 }
 
 .beaches-section {
-    border: solid #D0CE7C;
-    background-color: #EBE7C1;
-    
+    border: solid #D0CE7C;    
 }
 
 .beaches-section-text {
@@ -37,12 +35,10 @@
 
 .nature-section {
     border: solid #628395;
-    background-color: #CED8DF;
 }
 
 .culture-section {
     border: solid #C1B09E;
-    background-color: #E4E0DD;
 }
 
 p {

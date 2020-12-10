@@ -59,9 +59,8 @@ th {
 
 fieldset {
     display: flex;
-    width: 97%;
     justify-content: center;
-    margin: 2%;
+    margin: 5% 1%;
     border-radius: 10px;
     border: solid 2px #628395;
 }
@@ -74,7 +73,7 @@ label {
     font-family: 'Open Sans';
 }
 
-input#type, input#date, input#period, input#number, input#text, input#phone {
+input#type, input#date, input#period, input#number, input#text, input#phone, input#name, input#email, input#cruise, input#driver {
     height: 50px;
 }
 
@@ -93,6 +92,26 @@ input#type, input#date, input#period, input#number, input#text, input#phone {
 
 section {
     border: 1px solid lightgray;
-    width: 60%;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.reservation-info {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.thanks-logo img {
+    object-fit: cover;
+    height: 100px;
+}
+
+.thanks-h1 {
     margin: 10%;
 }
