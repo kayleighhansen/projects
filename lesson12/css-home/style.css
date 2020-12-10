@@ -23,13 +23,19 @@ p {
     width: 100%;
     height: 180px;
     margin-top: 5px;
+    position: relative;
+    z-index: -1;
 }
 
 .hero-banner-text {
     padding: 10px;
-    background-color: gray;
+    background-color: white;
     height: 150px;
     width: 150px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .hero-banner-text h2 {
@@ -38,8 +44,22 @@ p {
 
 .hero-banner-text p {
     font-size: 10px;
-    padding: 10px 20px;
+    padding: 25px 20px;
     text-align: center;
+}
+
+button {
+    border: 2px solid #628395;
+    background-color: #8cb0c4;
+    width: 150px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .rental-info-div h2 {

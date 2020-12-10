@@ -64,12 +64,12 @@
             "name": "Jeep Wrangler - 4 door",
             "max-persons": 4,
             "reservation": {
-                "halfday": 60,
-                "fullday": 85
+                "halfday": 70,
+                "fullday": 100
             },
             "walk": {
-                "halfday": 70,
-                "fullday": 90
+                "halfday": 85,
+                "fullday": 125
             }
         }
     ]
