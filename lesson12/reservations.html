@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
@@ -17,18 +18,23 @@
     <link rel="stylesheet" href="css-nav/medium.css">
     <link rel="stylesheet" href="css-nav/large.css">
 
+    <link rel="stylesheet" href="css-reservations/small.css">
+    <link rel="stylesheet" href="css-reservations/medium.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <img src="images/logo.png" alt="logo" class="logo">
     </header>
     <main>
-        <nav >
+        <nav>
             <ul class="navigation">
                 <li><a class="astericks-menu" href="#">
-                    <h3>&#8801;</h3></a></li>
+                        <h3>&#8801;</h3>
+                    </a></li>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li class="active"><a href="#">Reservations</a></li>
@@ -37,12 +43,110 @@
             </ul>
         </nav>
         <h1>Reservations</h1>
+        <p>Make your rental reservation here:</p>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="date">*Date of Reservation *</label><br>
+                            <input type="date" id="date" name="reservation-date" required></td>
+                        <td>
+                            <label for="period">*Rental Period </label><br>
+                            <input type="number" id="number" placeholder="# of days" name="period" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="type">*Type of Rental</label><br>
+                            <input list="rental-types" id="type" name="rental-type" placeholder="Choose One "
+                                required><br>
+                            <datalist id="rental-types">
+                                <option value="Honda Metro Scooter"></option>
+                                <option value="Honda Dia Scooter"></option>
+                                <option value="Honda PCX150 Scooter"></option>
+                                <option value="Jeep Wrangler 2 Door"></option>
+                                <option value="Jeep Wrangler 4 Door"></option>
+                            </datalist>
+                        </td>
+                        <td>
+                            <label for="period">*Rental Number</label><br>
+                            <input type="number" id="number" placeholder="# of rentals" name="number" required>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fullname" class="required">*Full Name </label><br>
+                                <input type="text" id="text" name="fullname" placeholder="First Last" required></td>
+                        <td>
+                            <label for="email">Email</label><br>
+                                <input type="email" id="text" name="email" placeholder="myemail@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone" class="required">*Phone</label><br>
+                                <input type="tel" id="phone" name="phone" placeholder="1234551234" required></td>
+                        <td>
+                            <label for="type">*Cruise Line</label><br>
+                                <input list="cruise-line" id="type" name="cruise-line" placeholder="Choose One">
+                                    <datalist id="cruise-line">
+                                        <option value="Royal Carribean"></option>
+                                        <option value="Carnival"></option>
+                                        <option value="Disney"></option>
+                                        <option value="United"></option>
+                                        <option value="Mayan"></option>
+                                    </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="license-div">
+                            <label for="type">*License Type</label><br>
+                                <input list="license" id="type" name="license" placeholder="Choose One">
+                                    <datalist id="license">
+                                        <option value="Valid US License"></option>
+                                        <option value="International Drivers Permit"></option>
+                                        <option value="US Driver's Permit"></option>
+                                        <option value="Suspended US License"></option>
+                                        <option value="Other"></option>
+                                    </datalist>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="info-box">Pick-Up/Drop-Off Info</label><br>
+                                <textarea id="info-box" name="info-box" rows="5" cols="16"></textarea>
+                        </td>
+                        <td>
+                            <label for="info-box">Additional Accomadations</label><br>
+                                <textarea id="info-box" name="info-box" rows="5" cols="16"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="button">
+                                <input type="submit" value="Make a Reservation" class="submit-button">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
     </main>
     <footer>
-        @ Kayleigh Hansen | BYU-Idaho | WDD230 
+        @ Kayleigh Hansen | BYU-Idaho | WDD230
     </footer>
 </body>
 
 <script src="javascript/nav.js"></script>
+<script src="javascript/thanks.js"></script>
 
 </html>

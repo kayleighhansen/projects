@@ -84,6 +84,8 @@ td {
     padding: 10px;
     font-size: 12px;
     border-bottom: solid 1px black;
+    font-family: 'Open Sans';
+
 }
 
 .weather-report-div table {

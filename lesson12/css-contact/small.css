@@ -16,3 +16,8 @@ h3 {
 p {
     font-family: 'Open Sans';
 }
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
