@@ -37,7 +37,7 @@ iframe {
     padding: 10px;
 }
 
-input#text, textarea{
+input#fullname, input#email, textarea{
     width: 250px;
     padding: 20px;
     border-radius: 10px;
