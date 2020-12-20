@@ -1,4 +1,4 @@
-const rentalurl = 'https://kayleighhansen.github.io/wdd230/wdd230-final/javascript/rentals.json';
+const rentalurl = 'https://kayleighhansen.github.io/projects/wdd230-final/javascript/rentals.json';
 
 fetch(rentalurl)
     .then(function (response) {
