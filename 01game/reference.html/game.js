@@ -1,8 +1,9 @@
 const context = document.querySelector("canvas").getContext("2d");
 
 context.canvas.height = 400;
-context.canvas.width = 800;
+context.canvas.width = 1220;
 
+// Start the frame count at 1
 let frameCount = 1;
 // Set the number of obstacles to match the current "level"
 let obCount = frameCount;
@@ -10,6 +11,7 @@ let obCount = frameCount;
 const obXCoors = [];
 
 const square = {
+
   height: 32,
   jumping: true,
   width: 32,
@@ -17,6 +19,7 @@ const square = {
   xVelocity: 0,
   y: 0,
   yVelocity: 0
+
 };
 
 // Create the obstacles for each frame
@@ -29,10 +32,11 @@ const nextFrame = () => {
     obXCoor = Math.floor(Math.random() * (1165 - 140 + 1) + 140);
     obXCoors.push(obXCoor);
   }
+
 }
 
 const controller = {
-//controls left right up
+
   left: false,
   right: false,
   up: false,
@@ -41,17 +45,21 @@ const controller = {
     var key_state = (event.type == "keydown") ? true : false;
 
     switch (event.keyCode) {
-      case 37:// left key- LEFT
+
+      case 37:// left key
         controller.left = key_state;
         break;
-      case 40:// down key- STOMR
+      case 38:// up key
         controller.up = key_state;
         break;
-      case 39:// right key- RIGHT
+      case 39:// right key
         controller.right = key_state;
         break;
+
     }
+
   }
+
 };
 
 const loop = function () {
@@ -93,18 +101,17 @@ const loop = function () {
   // if square is going off the left of the screen
   if (square.x < -20) {
 
-    square.x = 800;
+    square.x = 1220;
 
-  } else if (square.x > 800) {// if square goes past right boundary
+  } else if (square.x > 1220) {// if square goes past right boundary
 
     square.x = -20;
     nextFrame();
 
   }
-
   // Creates the backdrop for each frame
-  context.fillStyle = '/Users/kayleighhansen/gitrepository.github.io/repository1.github.io/1-game/background.png';
-  context.fillRect(0, 0, 800, 400); // x, y, width, height
+  context.fillStyle = "#201A23";
+  context.fillRect(0, 0, 1220, 400); // x, y, width, height
 
 
   // Creates and fills the cube for each frame
@@ -116,10 +123,10 @@ const loop = function () {
 
   // Create the obstacles for each frame
   // Set the standard obstacle height
-    const height = 200 * Math.cos(Math.PI / 6);
+  const height = 200 * Math.cos(Math.PI / 6);
 
-    context.fillStyle = "#FBF5F3"; // hex for triangle color
-    obXCoors.forEach((obXCoor) => {
+  context.fillStyle = "#FBF5F3"; // hex for triangle color
+  obXCoors.forEach((obXCoor) => {
     context.beginPath();
 
     context.moveTo(obXCoor, 385); // x = random, y = coor. on "ground"
@@ -129,6 +136,7 @@ const loop = function () {
     context.closePath();
     context.fill();
   })
+
 
   // Creates the "ground" for each frame
   context.strokeStyle = "#2E2532";
@@ -146,5 +154,3 @@ const loop = function () {
 window.addEventListener("keydown", controller.keyListener)
 window.addEventListener("keyup", controller.keyListener);
 window.requestAnimationFrame(loop);
-
-   
